@@ -1,0 +1,131 @@
+baseURL = "https://simerics-france.fr/"
+languageCode = "fr-FR"
+defaultContentLanguage = "fr"
+title = "Simerics France"
+theme = "PaperMod"
+
+[params.label]
+  text = "Simerics France — CFD haute performance"
+  icon = "/favicon.svg"
+  iconHeight = 22
+
+enableRobotsTXT = true
+enableInlineShortcodes = true
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  defaultTheme = "light"
+  disableThemeToggle = true
+  ShowShareButtons = false
+  ShowReadingTime = false
+  ShowBreadCrumbs = false
+  ShowToc = false
+  TocOpen = false
+  ShowPostNavLinks = true
+
+  [params.assets]
+    favicon = "favicon.svg"
+    favicon16x16 = "favicon.svg"
+    favicon32x32 = "favicon.svg"
+  comments = false
+  math = false
+  description = "Simerics France — Représentant officiel de Simerics MP / MP+ : simulation CFD 3D rapide, fiable et précise pour pompes, valves, turbomachines, automobile, marine et aéronautique."
+  author = "Simerics France"
+
+  [params.profileMode]
+    enabled = true
+    title = "Simerics MP / MP+ en France"
+    subtitle = "Simulation CFD 3D — **FAST. RELIABLE. ACCURATE.**\nPompes, valves, turbomachines, automobile, marine, aéronautique."
+    imageUrl = "images/logo-simerics.svg"
+    imageWidth = 220
+    imageHeight = 60
+    imageTitle = "Simerics France"
+
+    [[params.profileMode.buttons]]
+      name = "Produits"
+      url = "/produits"
+
+    [[params.profileMode.buttons]]
+      name = "Applications"
+      url = "/applications"
+
+    [[params.profileMode.buttons]]
+      name = "Demander une démo"
+      url = "/contact"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "/contact"
+    title = "Nous écrire"
+
+  [[params.socialIcons]]
+    name = "calendar"
+    url = "/contact#demo"
+    title = "Demander une démo"
+
+  [[params.socialIcons]]
+    name = "location"
+    url = "/contact#localisation"
+    title = "Nous trouver"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/company/simerics/"
+
+[menu]
+  [[menu.main]]
+    identifier = "produits"
+    name = "Produits"
+    url = "/produits/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "applications"
+    name = "Applications"
+    url = "/applications/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "services"
+    name = "Services"
+    url = "/services/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "ressources"
+    name = "Ressources"
+    url = "/ressources/"
+    weight = 40
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Actualités"
+    url = "/blog/"
+    weight = 50
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 60
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 2
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions.passthrough]
+      enable = true
+      [markup.goldmark.extensions.passthrough.delimiters]
+        block  = [["$$", "$$"]]
+        inline = [["$", "$"], ["\\(", "\\)"]]
