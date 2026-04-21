@@ -63,7 +63,7 @@ Une démonstration en visio dure environ **45 minutes** et peut être ciblée su
 
 ## Localisation {#localisation}
 
-Simerics France est domicilié dans le sud-est de la France, avec déplacements clients sur tout le territoire et en Europe francophone.
+Simerics France est une activité portée par **XiLAB3D+**, bureau d'études basé à Sisteron (Alpes-de-Haute-Provence). Déplacements clients sur tout le territoire français et en Europe francophone.
 
 <div class="contact-grid">
 
@@ -73,16 +73,36 @@ Simerics France est domicilié dans le sud-est de la France, avec déplacements 
 </div>
 
 <div class="contact-item">
-<strong>Éditeur USA</strong>
-<a href="https://www.simerics.com" target="_blank" rel="noopener">Simerics Inc.</a><br>
-+1 425 502 9978
+<strong>Téléphone</strong>
+<a href="tel:+33673284314">06 73 28 43 14</a>
 </div>
 
 <div class="contact-item">
-<strong>Filiale Europe</strong>
-<a href="https://www.simerics.de" target="_blank" rel="noopener">Simerics GmbH</a><br>
-Rottenburg, Allemagne<br>
-+49 7472 95731 10
+<strong>Siège</strong>
+XiLAB3Dplus SARL<br>
+1 rue des Cordeliers<br>
+04200 Sisteron, France<br>
+<a href="https://xilab.tech" target="_blank" rel="noopener">xilab.tech →</a>
 </div>
 
+<div class="contact-item">
+<strong>Éditeur</strong>
+<a href="https://www.simerics.com" target="_blank" rel="noopener">Simerics Inc.</a><br>
+Bellevue, WA, USA<br>
++1 425 502 9978
+</div>
+
+</div>
+
+<div class="map-container">
+<iframe
+  src="https://maps.google.com/maps?q=1+Rue+des+Cordeliers%2C+04200+Sisteron%2C+France&hl=fr&z=16&output=embed"
+  width="100%"
+  height="320"
+  style="border:0;"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"
+  title="Simerics France / XiLAB3D+ — 1 rue des Cordeliers, 04200 Sisteron">
+</iframe>
 </div>

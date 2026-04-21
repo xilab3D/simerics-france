@@ -8,7 +8,7 @@ TocOpen: false
 La gamme Simerics est une suite logicielle de **dynamique des fluides numérique (CFD) 3D** basée sur la méthode des **volumes finis**, structurée autour d'un noyau commun (Simerics-MP®) et de modules métiers (Simerics-MP+®). L'ensemble est reconnu pour être typiquement **5× plus rapide** que les codes CFD généralistes sur les applications de pompes et de machines tournantes.
 
 <div class="partner-banner">
-<strong>Simerics France</strong> est le représentant officiel des solutions Simerics Inc. (USA) et Simerics GmbH (Allemagne) sur le territoire français : licences, support technique de premier niveau, formation et prestations d'expertise.
+<strong>Simerics France</strong>, activité portée par <a href="https://xilab.tech" target="_blank" rel="noopener">XiLAB3D+</a>, est le représentant des solutions Simerics Inc. (USA) sur le territoire français : licences, support technique de premier niveau, formation et prestations d'expertise.
 </div>
 
 ## La gamme en un coup d'œil
