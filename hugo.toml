@@ -48,6 +48,10 @@ enableInlineShortcodes = true
       url = "/applications"
 
     [[params.profileMode.buttons]]
+      name = "Choisir Simerics-MP"
+      url = "/choisir-simerics"
+
+    [[params.profileMode.buttons]]
       name = "Demander une démo"
       url = "/contact"
 
