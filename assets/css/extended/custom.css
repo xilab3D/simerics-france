@@ -7,9 +7,9 @@
 h1, h2, h3, h4, h5, h6 { scroll-margin-top: 80px; }
 
 :root {
-  --darkcolor: #1e5fa8;
-  --lightcolor: #d6e3f4;
-  --accentcolor: #f39200;
+  --darkcolor: #1e2f80;
+  --lightcolor: #dce2f2;
+  --accentcolor: #e5201d;
   --main-width: 760px;
   --nav-width: 1080px;
   --gap: 24px;
@@ -39,8 +39,8 @@ h1, h2, h3 {
 
 /* Header */
 .header {
-  background: #f0f4fa;
-  border-bottom: 1px solid #d2dcec;
+  background: #eef0f7;
+  border-bottom: 1px solid #cdd3e4;
 }
 .nav { max-width: var(--nav-width); }
 .nav a {
@@ -340,7 +340,7 @@ h1, h2, h3 {
   cursor: pointer;
   transition: background 0.15s;
 }
-.form-submit:hover { background: #144880; border-color: #144880; }
+.form-submit:hover { background: #14205e; border-color: #14205e; }
 
 .map-container {
   margin: 16px 0 32px;
