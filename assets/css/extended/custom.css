@@ -80,10 +80,6 @@ h1, h2, h3 {
   gap: 14px;
   margin-bottom: 24px;
 }
-.logo-composite img {
-  mix-blend-mode: multiply;
-  margin-right: -12px;
-}
 .logo-composite .logo-france {
   font-family: var(--font-serif);
   font-size: 2.2rem;
@@ -94,10 +90,7 @@ h1, h2, h3 {
   line-height: 1;
 }
 
-/* Logo composite (bannière header, version compacte)
-   NB : le PNG Simerics a ~15% de marge blanche à droite ; on la
-   compense avec margin-right négatif pour que l'espace visible à
-   gauche de la barre corresponde à celui à droite. */
+/* Logo composite (bannière header, version compacte) */
 .header-logo-composite {
   display: inline-flex;
   align-items: center;
@@ -106,8 +99,7 @@ h1, h2, h3 {
 .header-logo-img {
   height: 36px !important;
   width: auto !important;
-  mix-blend-mode: multiply;
-  margin: 0 -5px 0 0 !important;
+  margin: 0 !important;
 }
 .header-logo-france {
   font-family: var(--font-serif);
