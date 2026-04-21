@@ -22,9 +22,9 @@ enableInlineShortcodes = true
   ShowPostNavLinks = true
 
   [params.assets]
-    favicon = "favicon.svg"
-    favicon16x16 = "favicon.svg"
-    favicon32x32 = "favicon.svg"
+    favicon = "/images/logo-simerics-emblem.jpg"
+    favicon16x16 = "/images/logo-simerics-emblem.jpg"
+    favicon32x32 = "/images/logo-simerics-emblem.jpg"
   comments = false
   math = false
   description = "Simerics France — Représentant officiel de Simerics MP / MP+ : simulation CFD 3D rapide, fiable et précise pour pompes, valves, turbomachines, automobile, marine et aéronautique."
