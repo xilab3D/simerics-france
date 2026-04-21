@@ -5,9 +5,9 @@ title = "Simerics France"
 theme = "PaperMod"
 
 [params.label]
-  text = "Simerics France — CFD haute performance"
-  icon = "/favicon.svg"
-  iconHeight = 22
+  text = "Simerics France"
+  icon = "/images/logo-simerics-emblem.jpg"
+  iconHeight = 28
 
 enableRobotsTXT = true
 enableInlineShortcodes = true
