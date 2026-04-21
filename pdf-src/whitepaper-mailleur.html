@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>White Paper — Maillage automatisé Binary Tree — Simerics France</title>
+<style>
+  @page {
+    size: A4;
+    margin: 18mm 16mm 22mm 16mm;
+    @bottom-left {
+      content: "Simerics France — XiLAB3D+ · white paper 2025.04.16 · trad. FR 2026";
+      font-family: Georgia, serif;
+      font-size: 8pt;
+      color: #666;
+    }
+    @bottom-right {
+      content: "Page " counter(page) " / " counter(pages);
+      font-family: Georgia, serif;
+      font-size: 8pt;
+      color: #666;
+    }
+  }
+  body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.45;
+    color: #222;
+    margin: 0;
+  }
+  h1 {
+    font-family: Georgia, serif;
+    font-size: 20pt;
+    color: #1e2f80;
+    margin: 0 0 6pt;
+    letter-spacing: -0.01em;
+  }
+  h2 {
+    font-family: Georgia, serif;
+    font-size: 13pt;
+    color: #1e2f80;
+    margin: 14pt 0 4pt;
+    border-bottom: 1px solid #dce2f2;
+    padding-bottom: 2pt;
+    page-break-after: avoid;
+  }
+  h3 {
+    font-family: Georgia, serif;
+    font-size: 11pt;
+    color: #1e2f80;
+    margin: 10pt 0 2pt;
+    page-break-after: avoid;
+  }
+  p { margin: 0 0 6pt; text-align: justify; }
+  ol, ul { margin: 4pt 0 6pt 18pt; padding: 0; }
+  li { margin: 2pt 0; }
+  .logo-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #1e2f80;
+    padding-bottom: 10pt;
+    margin-bottom: 12pt;
+  }
+  .logo-left { display: flex; align-items: center; gap: 8pt; }
+  .logo-left img { height: 32pt; }
+  .logo-left .sep {
+    border-left: 2px solid #1e2f80;
+    padding-left: 8pt;
+    font-family: Georgia, serif;
+    font-size: 18pt;
+    color: #e5201d;
+    line-height: 1;
+  }
+  .logo-right img { height: 40pt; }
+  .meta {
+    font-family: Georgia, serif;
+    font-size: 9pt;
+    color: #555;
+    text-align: center;
+    margin-bottom: 10pt;
+  }
+  .title-block {
+    text-align: center;
+    margin: 16pt 0 14pt;
+  }
+  .title-block h1 { font-size: 22pt; color: #1e2f80; }
+  .title-block .subtitle {
+    font-family: Georgia, serif;
+    font-size: 12pt;
+    color: #555;
+    font-style: italic;
+  }
+  .cover {
+    text-align: center;
+    margin: 14pt 0;
+  }
+  .cover img {
+    max-width: 70%;
+    max-height: 280pt;
+    border: 1px solid #ccc;
+  }
+  .abstract {
+    background: #f5f7fb;
+    border-left: 4px solid #1e2f80;
+    padding: 10pt 12pt;
+    margin: 12pt 0;
+    font-size: 10.5pt;
+  }
+  figure {
+    text-align: center;
+    margin: 10pt auto;
+    page-break-inside: avoid;
+  }
+  figure img {
+    max-width: 80%;
+    max-height: 200pt;
+    border: 1px solid #ddd;
+  }
+  figcaption {
+    font-family: Georgia, serif;
+    font-size: 9pt;
+    color: #444;
+    font-style: italic;
+    margin-top: 4pt;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 8pt 0;
+    font-size: 9.5pt;
+  }
+  th {
+    background: #dce2f2;
+    color: #1e2f80;
+    text-align: left;
+    padding: 4pt 6pt;
+    border: 1px solid #b5bed4;
+  }
+  td {
+    padding: 4pt 6pt;
+    border: 1px solid #ccc;
+    vertical-align: top;
+  }
+  .quote {
+    border-left: 3px solid #e5201d;
+    padding: 6pt 12pt;
+    margin: 10pt 0;
+    font-style: italic;
+    color: #333;
+    background: #fdf5f4;
+  }
+  .quote .author {
+    display: block;
+    font-style: normal;
+    text-align: right;
+    font-size: 9pt;
+    color: #666;
+    margin-top: 4pt;
+  }
+  .ref {
+    font-size: 9pt;
+    counter-reset: refitem;
+  }
+  .ref li { margin-bottom: 3pt; }
+  .footer-block {
+    margin-top: 16pt;
+    padding-top: 8pt;
+    border-top: 1px solid #dce2f2;
+    font-size: 8.5pt;
+    color: #555;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-block .col { flex: 1; padding-right: 10pt; }
+  .footer-block strong { color: #1e2f80; }
+  .page-break { page-break-before: always; }
+</style>
+</head>
+<body>
+
+<div class="logo-row">
+  <div class="logo-left">
+    <img src="/Users/nico/Documents/GitHub/SimericsFrance/static/images/logo-simerics.png" alt="Simerics">
+    <span class="sep">France</span>
+  </div>
+  <div class="logo-right">
+    <img src="/Users/nico/Documents/GitHub/SimericsFrance/static/images/logo-xilab.png" alt="XiLAB3D+">
+  </div>
+</div>
+
+<div class="meta">
+  Simerics Inc. · Traduction &amp; édition française — <strong>Simerics France / XiLAB3Dplus SARL</strong><br>
+  White Paper 2025.04.16 — version française 2026
+</div>
+
+<div class="title-block">
+  <h1>Maillage automatisé par Binary Tree</h1>
+  <div class="subtitle">Un mailleur rapide, robuste et tolérant aux géométries CAO « sales »</div>
+</div>
+
+<div class="cover">
+  <img src="/Users/nico/Documents/GitHub/SimericsFrance/static/images/mesh/fig-000.png" alt="Illustration couverture — maillage binary-tree sur géométrie humanoïde">
+</div>
+
+<div class="abstract">
+<strong>Résumé.</strong> Le code CFD Simerics-MP® intègre un mailleur automatique par arbre binaire (<em>binary-tree</em>) qui permet de générer rapidement, sans sacrifier la précision, les maillages volumiques nécessaires à la simulation. Ce document présente les capacités de cette technologie et illustre, à travers plusieurs cas industriels, son efficacité comparée aux techniques traditionnelles.
+</div>
+
+<h2>Introduction</h2>
+<p>Historiquement, la génération de maillage est l'étape la plus chronophage d'une simulation CFD. Pour une géométrie complexe, un ingénieur expérimenté pouvait consacrer <em>plusieurs jours, voire plusieurs semaines</em>, à produire un maillage de qualité. Étant donné que la précision, la vitesse et la convergence d'une simulation sont toutes directement liées à la quantité et à la qualité des cellules, le choix du maillage est un facteur décisif de productivité et de fidélité des résultats.</p>
+
+<p>Le maillage <em>body-fitted binary-tree</em> est une méthode flexible pour générer une grille hautement efficace. Il appartient à la famille des grilles cartésiennes non structurées conformes au corps. Une grille cubique superposée est raffinée par facteurs de deux à l'approche des zones nécessitant une meilleure résolution géométrique. Aux frontières, la grille est découpée pour se conformer aux surfaces délimitant le domaine fluide.</p>
+
+<figure>
+  <img src="/Users/nico/Documents/GitHub/SimericsFrance/static/images/mesh/fig-003.png" alt="Figure 1">
+  <figcaption>Figure 1 — Maillage binary-tree autour d'un cylindre dans une boîte.</figcaption>
+</figure>
+
+<h3>Les huit forces du binary-tree</h3>
+<ol>
+  <li>L'architecture parent-enfant permet une structure de données compacte et extensible, avec une empreinte mémoire réduite.</li>
+  <li>Le raffinement binaire est optimal pour transiter entre différentes échelles de longueur et résolutions.</li>
+  <li>La majorité des cellules sont des cubes, ce qui constitue le type de cellule optimal en termes d'orthogonalité, de rapport d'aspect (<em>aspect ratio</em>) et de distorsion, réduisant ainsi l'influence des erreurs numériques et améliorant vitesse et précision.</li>
+  <li>Le procédé est entièrement automatisable, ce qui réduit considérablement le temps de mise en données.</li>
+  <li>Il peut se conformer à des formes très complexes.</li>
+  <li>Il peut transiter continûment d'un matériau à un autre (par exemple solide → liquide).</li>
+  <li>Il fournit une précision équivalente à celle des cellules tétraédriques avec <em>moins de cellules</em>.</li>
+  <li>Comme la grille est créée depuis un volume, elle tolère des surfaces CAO « sales » (fissures, chevauchements de faces).</li>
+</ol>
+
+<figure>
+  <img src="/Users/nico/Documents/GitHub/SimericsFrance/static/images/mesh/fig-004.png" alt="Figure 2 — Forme complexe résolue par binary-tree (dragon)">
+  <figcaption>Figure 2 — Forme complexe résolue par le mailleur binary-tree.</figcaption>
+</figure>
+
+<h2>Historique : pourquoi le binary-tree ?</h2>
+<p>Au début de la CFD, les maillages étaient structurés et orthogonaux, en raison des limites des schémas numériques disponibles. Cela imposait de simplifier les géométries en marches d'escalier aux frontières non alignées ou courbes. L'étape suivante consistait à recouvrir les surfaces non alignées avec des cellules et à les bloquer partiellement via la porosité de cellule. Bien qu'améliorant les marches d'escalier brutes, cette approche restait limitée pour résoudre les couches limites.</p>
+
+<p>Une avancée significative est venue avec les coordonnées <em>body-fitted</em> qui, tout en restant structurées, se conformaient aux surfaces. Puis l'avènement des solveurs non structurés a permis la création de maillages conformes à la géométrie et résolvant les couches limites.</p>
+
+<p>Un maillage structuré est généralement très efficace et précis, et résout facilement les couches limites. En revanche, sur les géométries complexes, il présente plusieurs inconvénients : (i) génération fastidieuse et chronophage ; (ii) risque élevé de distorsion, réduisant la précision et la convergence ; (iii) le raffinement local (couche limite) peut conduire à des comptes de cellules démesurés.</p>
+
+<p>Les maillages tétraédriques non structurés sont beaucoup plus simples et rapides à générer, mais nécessitent plusieurs fois plus de cellules pour la même précision qu'un maillage hexaédrique, et leur orthogonalité est médiocre. Les maillages polyédriques, dérivés de tétraédriques fusionnés, réduisent le nombre de cellules mais conservent un nombre élevé de faces par cellule et reposent toujours sur la qualité de la CAO.</p>
+
+<h2>Validation : pompe centrifuge Wang &amp; Wang (2007)</h2>
+<p>Wang &amp; Wang (2007) ont utilisé <strong>750 000 cellules structurées</strong> pour simuler une pompe centrifuge avec un code CFD commercial largement répandu [Réf. 2]. Avec la même géométrie et les mêmes conditions opératoires, Simerics obtient la même précision par rapport aux données expérimentales avec <strong>environ la moitié moins de cellules</strong> (390 000 cellules binary-tree).</p>
+
+<table>
+  <caption style="font-size:9pt;color:#555;margin-bottom:3pt">Tableau 1 — Comparaison des résultats de simulation pour une pompe centrifuge.</caption>
+  <tr><th>Débit (m³/h)</th><th>30</th><th>50</th><th>60</th></tr>
+  <tr><td colspan="4" style="background:#f5f7fb;font-style:italic">Pression (m)</td></tr>
+  <tr><td>Expérience</td><td>23,50</td><td>20,54</td><td>18,34</td></tr>
+  <tr><td>Wang &amp; Wang (2007)</td><td>22,52</td><td>21,06</td><td>19,26</td></tr>
+  <tr><td><strong>Simerics (binary-tree)</strong></td><td>21,82</td><td>20,44</td><td>18,05</td></tr>
+  <tr><td colspan="4" style="background:#f5f7fb;font-style:italic">Puissance (W)</td></tr>
+  <tr><td>Expérience</td><td>2 800</td><td>3 540</td><td>3 810</td></tr>
+  <tr><td>Wang &amp; Wang (2007)</td><td>2 800</td><td>3 710</td><td>4 010</td></tr>
+  <tr><td><strong>Simerics (binary-tree)</strong></td><td>2 825</td><td>3 638</td><td>3 847</td></tr>
+</table>
+
+<figure>
+  <img src="/Users/nico/Documents/GitHub/SimericsFrance/static/images/mesh/fig-007.png" alt="Figure 4 — Maillage hexaédrique structuré body-fitted">
+  <figcaption>Figure 4 — Maillage hexaédrique structuré body-fitted [Réf. 2].</figcaption>
+</figure>
+
+<figure>
+  <img src="/Users/nico/Documents/GitHub/SimericsFrance/static/images/mesh/fig-009.png" alt="Figure 5 — Coupe du maillage binary-tree sur pompe centrifuge">
+  <figcaption>Figure 5 — Maillage binary-tree sur un plan de coupe d'une pompe centrifuge.</figcaption>
+</figure>
+
+<figure>
+  <img src="/Users/nico/Documents/GitHub/SimericsFrance/static/images/mesh/fig-010.png" alt="Figure 6 — Maillage binary-tree pompe complète">
+  <figcaption>Figure 6 — Maillage binary-tree utilisé pour la comparaison avec Wang &amp; Wang [Réf. 2].</figcaption>
+</figure>
+
+<figure>
+  <img src="/Users/nico/Documents/GitHub/SimericsFrance/static/images/mesh/fig-022.png" alt="Figure 7 — Courbe hauteur / débit">
+  <figcaption>Figure 7 — Résultats binary-tree vs. structuré vs. expérience.</figcaption>
+</figure>
+
+<h2>Adaptation à une large plage d'échelles</h2>
+<p>Parce que la méthode raffine par facteurs de deux, elle est très efficace pour transiter des grandes aux petites échelles. La Figure 8 illustre la résolution automatique de passages progressivement plus petits dans un circuit de lubrification.</p>
+
+<figure>
+  <img src="/Users/nico/Documents/GitHub/SimericsFrance/static/images/mesh/fig-011.png" alt="Figure 8 — Maillage binary-tree d'un circuit de lubrification">
+  <figcaption>Figure 8 — Maillage binary-tree d'un circuit de lubrification.</figcaption>
+</figure>
+
+<h2>Géométries « sales »</h2>
+<p>Les géométries sont fournies au mailleur Simerics au format STL (facettes triangulaires). Le mailleur se conforme à ces surfaces par subdivisions successives de cellules cubiques, avec des coupes finales pour épouser les facettes STL. Si le STL présente des défauts (géométrie sale) ou si l'échelle des détails est inférieure à la tolérance du mailleur, celui-ci utilise par défaut le plus petit cube défini par la tolérance utilisateur. Ces cellules non résolues sont appelées <em>sous-caractéristiques</em> (<em>sub-features</em>).</p>
+
+<p>Leur intérêt : elles peuvent ponter des fissures et autres défauts géométriques. Un modèle de sous-capot véhicule de <strong>11 millions de facettes STL</strong> — avec des faces non entièrement connectées — a ainsi pu être maillé sans aucune réparation, enveloppement ni simplification.</p>
+
+<figure>
+  <img src="/Users/nico/Documents/GitHub/SimericsFrance/static/images/mesh/fig-014.png" alt="Figure 9 — Sous-caractéristiques dans une géométrie maillée">
+  <figcaption>Figure 9 — Sous-caractéristiques dans une géométrie maillée.</figcaption>
+</figure>
+
+<figure>
+  <img src="/Users/nico/Documents/GitHub/SimericsFrance/static/images/mesh/fig-016.png" alt="Écoulement sous-capot — modèle binary-tree">
+  <figcaption>Figure 9bis — Modèle d'écoulement sous-capot avec binary-tree.</figcaption>
+</figure>
+
+<h2>Conjugate Heat Transfer (CHT)</h2>
+<p>Autre avantage du binary-tree : il produit un maillage continu à travers les volumes connectés, ce qui le rend parfaitement adapté à la modélisation du transfert de chaleur entre solides et liquides disparates (<em>conjugate heat transfer</em>). Il convient alors de s'assurer que le nombre de cellules aux interfaces est suffisant pour résoudre les couches limites thermiques et fluides.</p>
+
+<figure>
+  <img src="/Users/nico/Documents/GitHub/SimericsFrance/static/images/mesh/fig-017.png" alt="Figure 10 — Simulation CHT d'un échangeur de chaleur">
+  <figcaption>Figure 10 — Simulation CHT d'un échangeur de chaleur avec maillage binary-tree.</figcaption>
+</figure>
+
+<h2>Vitesse</h2>
+<p>Parce que le maillage binary-tree superpose la géométrie et raffine automatiquement, il est significativement plus rapide que les techniques traditionnelles. À titre d'exemple, le temps nécessaire pour générer un maillage de <strong>46 millions de cellules</strong> pour le modèle de la Figure 9 (11 millions de facettes STL) était de <strong>2,5 heures</strong> sur un PC Xeon 5550 double quad-core (2,67 GHz) avec 48 Go de RAM. La simulation CFD elle-même ne prenait que 18 heures sur la même machine.</p>
+
+<h2>Couches limites</h2>
+<p>Une question fréquente concerne la capacité du mailleur binary-tree à capturer correctement les effets de couche limite. Si les avantages d'un maillage <em>body-fitted</em> structuré dans ce domaine ne sont pas discutés, l'utilisation de <strong>fonctions de paroi spéciales</strong> et de <strong>termes croisés</strong> adaptés aux cellules à facettes multiples produites par le binary-tree fournit des résultats précis pour une large gamme de problèmes d'ingénierie. Comme avec toute méthode, l'utilisateur doit veiller à ce que les cellules près d'une frontière soient suffisamment petites pour résoudre la couche limite. Avec le mailleur binary-tree, cela s'obtient en sélectionnant une haute résolution sur la surface elle-même, le raffinement se propageant alors dans la couche limite.</p>
+
+<p>Ceci est particulièrement important pour les applications où les couches limites sont critiques, comme les pompes centrifuges. L'efficacité du maillage binary-tree pour ces applications a été démontrée par d'excellentes comparaisons avec les résultats expérimentaux, illustrées en Figure 11 pour une pompe axiale multi-étages [Réf. 5].</p>
+
+<figure>
+  <img src="/Users/nico/Documents/GitHub/SimericsFrance/static/images/mesh/fig-020.png" alt="Figure 11 — Pompe HMS mixed-flow">
+  <figcaption>Figure 11 — Prévisions Simerics vs. expérience pour une pompe HMS mixed-flow.</figcaption>
+</figure>
+
+<div class="quote">
+« Simerics a dépassé toutes mes attentes : préparation d'un modèle 3D — 2 heures maximum, 1 heure en moyenne. Aucun problème de création de maillage : toujours généré sans erreur. Calcul du premier point caractéristique en 10 à 30 minutes, soit <strong>10 à 30 fois plus rapide que notre programme principal</strong>. Précision sur la pression et l'efficacité : 1 % à 3 % max dans la plage de fonctionnement. Un excellent programme pour l'ingénieur — rapide et simple. Note globale : 9 sur 10. »
+<span class="author">— Lead Engineer, HMS Group Russia</span>
+</div>
+
+<h2>Résumé</h2>
+<p>Le maillage binary-tree tel qu'implémenté dans Simerics est un maillage automatisé qui :</p>
+<ul>
+  <li>Est convivial, robuste et rapide pour la génération</li>
+  <li>Utilise efficacement le nombre de cellules et la mémoire</li>
+  <li>Peut être utilisé pour des matériaux disparates (CHT à travers liquides et solides)</li>
+  <li>S'adapte efficacement à une large plage d'échelles</li>
+  <li>Tolère les géométries « sales »</li>
+  <li>A démontré sa précision sur une vaste gamme d'applications, y compris pour la capture des couches limites</li>
+</ul>
+
+<h2>Références</h2>
+<ol class="ref">
+  <li>Lowry, S. and Keeton, L.W., <em>"Space Shuttle Main Engine High Pressure Fuel Pump Aft Platform Seal Cavity Flow Analysis"</em>, NASA Technical Paper 2685, janvier 1987.</li>
+  <li>Wang and Wang, <em>"Performance prediction of centrifugal pump based on the method of numerical simulation"</em>, Fluid Machinery, vol. 35, pp. 9-13.</li>
+  <li>Ding, H., Visser, F.C., Jiang, Y. and Furmanczyk, M., 2011, <em>"Demonstration and validation of a 3D CFD simulation tool predicting pump performance and cavitation for industrial applications"</em>, J. Fluids Eng. — Trans ASME, 133(1), 011101.</li>
+  <li>Ding, H., Visser, F.C., and Jiang, Y., 2012, <em>"A practical approach to speed up NPSHR Predictions of Centrifugal Pumps using CFD Cavitation Models"</em>, FEDSM2012-72282, Proceedings of FEDSM 2012.</li>
+  <li><em>"Cost cutting with pump performance prediction"</em>, World Pumps, Juillet/Août 2013.</li>
+</ol>
+
+<div class="footer-block">
+  <div class="col">
+    <strong>Document original</strong><br>
+    Simerics Inc., Bellevue (WA), USA<br>
+    White Paper 2025.04.16<br>
+    <a href="https://www.simerics.com">simerics.com</a>
+  </div>
+  <div class="col">
+    <strong>Édition française</strong><br>
+    Simerics France — activité portée par<br>
+    <strong>XiLAB3Dplus SARL</strong> (RCS Manosque 933 003 048)<br>
+    1 rue des Cordeliers, 04200 Sisteron
+  </div>
+  <div class="col">
+    <strong>Contact</strong><br>
+    contact@simerics-france.fr<br>
+    <a href="https://simerics-france.fr">simerics-france.fr</a><br>
+    Tél. 06 73 28 43 14
+  </div>
+</div>
+
+</body>
+</html>

@@ -321,6 +321,28 @@ h1, h2, h3 {
   color: #fff;
 }
 
+/* Bouton bleu bordé rouge (mise en avant spécifique) */
+.btn-blue-red {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  padding: 8px 20px;
+  border: 2px solid var(--accentcolor);
+  border-radius: var(--radius);
+  background: #fff;
+  color: var(--darkcolor);
+  text-decoration: none !important;
+  margin-top: 10px;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.btn-blue-red:hover {
+  background: var(--accentcolor);
+  color: #fff;
+  border-color: var(--accentcolor);
+}
+
 /* Catégories blog */
 .blog-categories {
   display: flex;

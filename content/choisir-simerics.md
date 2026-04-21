@@ -23,6 +23,7 @@ Cette page répond à une question simple : **pourquoi choisir Simerics-MP+ plut
 <h3>🚀 Vitesse & productivité</h3>
 <p><strong>Maillage automatisé</strong> (grille cartésienne binary tree) — fini les semaines à nettoyer et préparer la CAO. Simerics génère un maillage robuste en quelques minutes, même sur des géométries "sales".</p>
 <p><strong>Solveur haute performance</strong> conçu dès l'origine pour le multi-cœur et le calcul parallèle. Les équations de Navier-Stokes sont résolues plus rapidement qu'avec la plupart des codes concurrents, sans perte de précision.</p>
+<p><a href="/mailleur-binary-tree" class="btn-blue-red">En savoir plus sur le mailleur Binary Tree →</a></p>
 </div>
 
 <div class="card accent">
