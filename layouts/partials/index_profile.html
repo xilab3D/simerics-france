@@ -6,11 +6,14 @@
         {{- if not (urls.Parse .imageUrl).IsAbs }}
             {{- $img = resources.Get .imageUrl }}
         {{- end }}
-        {{- if $img }}
+        <div class="logo-composite">
+            {{- if $img }}
             <img draggable="false" src="{{ $img.Permalink }}" alt="{{ .imageTitle | default "logo" }}" title="{{ .imageTitle }}" />
-        {{- else }}
+            {{- else }}
             <img draggable="false" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "logo" }}" title="{{ .imageTitle }}" />
-        {{- end }}
+            {{- end }}
+            <span class="logo-france">France</span>
+        </div>
         {{- end }}
         <h1>{{ .title | default site.Title | markdownify }}</h1>
         <span>{{ .subtitle | markdownify }}</span>

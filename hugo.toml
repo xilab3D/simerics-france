@@ -38,9 +38,9 @@ enableInlineShortcodes = true
     enabled = true
     title = "Simerics MP / MP+ en France"
     subtitle = "Simulation CFD 3D — **FAST. RELIABLE. ACCURATE.**\nPompes, valves, turbomachines, automobile, marine, aéronautique."
-    imageUrl = "images/logo-simerics-france.svg"
-    imageWidth = 360
-    imageHeight = 72
+    imageUrl = "images/logo-simerics.png"
+    imageWidth = 440
+    imageHeight = 80
     imageTitle = "Simerics France"
 
     [[params.profileMode.buttons]]
