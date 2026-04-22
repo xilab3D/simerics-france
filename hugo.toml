@@ -33,7 +33,7 @@ enableInlineShortcodes = true
   [params.profileMode]
     enabled = true
     title = "Simerics MP / MP+ en France"
-    subtitle = "Simulation CFD 3D — **FAST. RELIABLE. ACCURATE.**\nPompes, valves, turbomachines, automobile, marine, aéronautique."
+    subtitle = "Simulation CFD 3D — **RAPIDE. FIABLE. PRÉCIS.**\nPompes, valves, turbomachines, automobile, marine, aéronautique."
     imageUrl = "images/logo-simerics.png"
     imageWidth = 440
     imageHeight = 80
@@ -48,12 +48,12 @@ enableInlineShortcodes = true
       url = "/applications"
 
     [[params.profileMode.buttons]]
-      name = "Choisir Simerics-MP"
-      url = "/choisir-simerics"
-
-    [[params.profileMode.buttons]]
       name = "Demander une démo"
       url = "/contact"
+
+    [[params.profileMode.buttons]]
+      name = "Choisir Simerics-MP"
+      url = "/choisir-simerics"
 
   [[params.socialIcons]]
     name = "email"

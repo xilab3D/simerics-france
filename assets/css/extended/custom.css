@@ -175,14 +175,17 @@ h1, h2, h3 {
   background: var(--lightcolor);
 }
 
-/* Bouton CTA orange (démo / contact) */
+/* Bouton CTA orange (dernier bouton : "Choisir Simerics-MP")
+   Reprend le style orange de xilab-hugo (btn-move2digital) */
 .profile-mode .profile_inner .buttons a:last-child {
-  border-color: var(--accentcolor);
-  color: var(--accentcolor);
+  border: 2px solid #e07b20;
+  color: #e07b20;
+  font-weight: 600;
 }
 .profile-mode .profile_inner .buttons a:last-child:hover {
-  background: var(--accentcolor);
+  background: #e07b20;
   color: #fff;
+  border-color: #e07b20;
 }
 
 /* Icônes sociales */
