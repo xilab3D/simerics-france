@@ -63,6 +63,29 @@ h1, h2, h3 {
 
 /* Profile (accueil) */
 .profile { padding: 48px 0; }
+
+/* GIF héros sous le logo */
+.hero-visual {
+  margin: 0 auto 28px;
+  max-width: 560px;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 3px 16px rgba(30, 47, 128, 0.18);
+}
+.hero-visual img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: none !important;
+  max-width: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  mix-blend-mode: normal !important;
+  margin: 0 !important;
+}
+@media (max-width: 640px) {
+  .hero-visual { max-width: 90%; }
+}
 .profile img {
   border-radius: 0 !important;
   box-shadow: none !important;
