@@ -1,14 +1,15 @@
 ---
 title: "Ressources"
-description: "Ressources techniques, white papers, actualités Simerics France"
+description: "Ressources techniques et white papers Simerics France"
 ShowToc: true
 TocOpen: false
+layout: single
 cascade:
   ShowToc: true
   TocOpen: false
 ---
 
-Ressources techniques, documents de référence et actualités autour de Simerics MP / MP+ et PumpLinx.
+Ressources techniques et documents de référence autour de Simerics MP / MP+ et PumpLinx.
 
 ## Dossiers techniques
 
@@ -42,8 +43,3 @@ Ressources techniques, documents de référence et actualités autour de Simeric
 
 </div>
 
----
-
-## Actualités
-
-Les dernières nouvelles de Simerics France, retours d'expérience et nouvelles fonctionnalités de l'éditeur sont publiés ci-dessous.
