@@ -558,15 +558,22 @@ h1, h2, h3 {
   margin: 24px 0;
 }
 .gallery-item {
+  display: block;
   border: 1px solid var(--border);
   border-radius: var(--radius);
   overflow: hidden;
   background: #fff;
-  transition: border-color 0.15s, transform 0.15s;
+  color: var(--primary);
+  text-decoration: none !important;
+  transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s;
 }
 .gallery-item:hover {
   border-color: var(--darkcolor);
   transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(30, 47, 128, 0.12);
+}
+.gallery-item:hover h4 {
+  text-decoration: underline;
 }
 .gallery-item img {
   width: 100%;

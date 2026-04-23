@@ -29,7 +29,7 @@ Ressources techniques et documents de référence autour de Simerics MP / MP+ et
 
 <div class="card accent">
 <h3>Galerie de simulations</h3>
-<p>27 exemples d'applications industrielles Simerics (automobile, marine, hydraulique, turbomachines…), filtrables par logiciel, industrie et physique.</p>
+<p>33 exemples d'applications industrielles Simerics (automobile, marine, hydraulique, turbomachines…), filtrables par logiciel, industrie et physique. Chaque vignette renvoie vers la fiche détaillée sur simerics.com.</p>
 <a class="card-link" href="/ressources/galerie-simulations/">Voir la galerie →</a>
 </div>
 
