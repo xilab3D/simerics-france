@@ -159,6 +159,18 @@ h1, h2, h3 {
 .profile .profile_inner .buttons {
   margin-top: 28px;
   gap: 10px;
+  max-width: 700px;
+  justify-content: center;
+}
+/* Force le bouton orange (Choisir Simerics-MP) sur sa propre ligne */
+.profile .profile_inner .buttons a:last-child {
+  flex-basis: 100%;
+  text-align: center;
+  margin-top: 6px;
+}
+@media (max-width: 640px) {
+  .profile .profile_inner .buttons { max-width: 320px; }
+  .profile .profile_inner .buttons a:last-child { flex-basis: auto; }
 }
 .profile .profile_inner .buttons a {
   font-family: var(--font-sans);
