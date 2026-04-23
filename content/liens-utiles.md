@@ -1,11 +1,11 @@
 ---
-title: "Ressources"
-description: "Documentation, webinaires, white papers et études de cas Simerics"
+title: "Liens utiles"
+description: "Documentation Simerics, partenaires, intégrations, évènements"
 ShowToc: true
 TocOpen: false
 ---
 
-Une sélection de ressources pour découvrir les capacités de Simerics et son écosystème.
+Une sélection de liens utiles pour découvrir les capacités de Simerics et son écosystème.
 
 ## Documentation officielle
 
