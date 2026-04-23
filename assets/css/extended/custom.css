@@ -172,6 +172,13 @@ h1, h2, h3 {
 }
 .profile .profile_inner .buttons a.button .button-inner {
   padding: 0 8px;
+  /* Reset des styles hérités de .profile .profile_inner span qui
+     faisaient pousser le bouton en hauteur (pre-line + line-height 1.65) */
+  font-size: inherit;
+  line-height: normal;
+  white-space: nowrap;
+  color: inherit;
+  max-width: none;
 }
 /* Saut de ligne avant le dernier bouton (CTA orange) */
 .profile .profile_inner .buttons::before {
