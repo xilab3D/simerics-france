@@ -526,28 +526,44 @@ h1, h2, h3 {
 
 /* --- Galerie de simulations --- */
 .gallery-filters {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
   margin: 24px 0 32px;
-  padding: 16px 20px;
-  background: var(--lightcolor);
+  padding: 18px 22px;
+  background: #fff;
+  border: 1px solid var(--darkcolor);
   border-radius: var(--radius);
+  box-shadow: 0 2px 10px rgba(30, 47, 128, 0.06);
 }
 .filter-group {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 6px;
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  align-items: start;
+  gap: 14px;
+  padding: 12px 0;
+  border-top: 1px solid var(--lightcolor);
+}
+.filter-group:first-child {
+  padding-top: 0;
+  border-top: none;
+}
+.filter-group:last-child {
+  padding-bottom: 0;
 }
 .filter-label {
-  font-size: 0.85rem;
-  font-weight: 600;
+  font-family: var(--font-serif);
+  font-size: 0.82rem;
+  font-weight: 700;
   color: var(--darkcolor);
   text-transform: uppercase;
-  letter-spacing: 0.04em;
-  min-width: 90px;
-  margin-right: 8px;
+  letter-spacing: 0.08em;
+  padding-top: 6px;
+  border-left: 3px solid var(--accentcolor);
+  padding-left: 10px;
+  line-height: 1.2;
+}
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
 }
 .filter-btn {
   font-family: var(--font-sans);
@@ -564,6 +580,16 @@ h1, h2, h3 {
 .filter-btn.active {
   background: var(--darkcolor);
   color: #fff;
+}
+@media (max-width: 640px) {
+  .filter-group {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+  .filter-label {
+    padding-top: 0;
+    font-size: 0.78rem;
+  }
 }
 
 .gallery-grid {

@@ -11,14 +11,17 @@ Sélection d'exemples de simulations Simerics — automobile, marine, aéronauti
 
 <div class="filter-group">
 <span class="filter-label">Logiciel</span>
+<div class="filter-buttons">
 <button class="filter-btn active" data-filter="software" data-value="all">Tous</button>
 <button class="filter-btn" data-filter="software" data-value="mp">Simerics-MP</button>
 <button class="filter-btn" data-filter="software" data-value="mpplus">Simerics-MP+</button>
 <button class="filter-btn" data-filter="software" data-value="pumplinx">PumpLinx</button>
 </div>
+</div>
 
 <div class="filter-group">
 <span class="filter-label">Industrie</span>
+<div class="filter-buttons">
 <button class="filter-btn active" data-filter="industry" data-value="all">Toutes</button>
 <button class="filter-btn" data-filter="industry" data-value="automotive">Automobile</button>
 <button class="filter-btn" data-filter="industry" data-value="marine">Marine</button>
@@ -27,9 +30,11 @@ Sélection d'exemples de simulations Simerics — automobile, marine, aéronauti
 <button class="filter-btn" data-filter="industry" data-value="energy">Énergie</button>
 <button class="filter-btn" data-filter="industry" data-value="chemical">Chimie</button>
 </div>
+</div>
 
 <div class="filter-group">
 <span class="filter-label">Physique</span>
+<div class="filter-buttons">
 <button class="filter-btn active" data-filter="physics" data-value="all">Toutes</button>
 <button class="filter-btn" data-filter="physics" data-value="flow">Écoulement</button>
 <button class="filter-btn" data-filter="physics" data-value="cavitation">Cavitation</button>
@@ -37,6 +42,7 @@ Sélection d'exemples de simulations Simerics — automobile, marine, aéronauti
 <button class="filter-btn" data-filter="physics" data-value="multiphase">Multiphasique</button>
 <button class="filter-btn" data-filter="physics" data-value="mixing">Mélange</button>
 <button class="filter-btn" data-filter="physics" data-value="fsi">FSI</button>
+</div>
 </div>
 
 </div>
