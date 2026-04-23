@@ -51,10 +51,6 @@ enableInlineShortcodes = true
       name = "Demander une démo"
       url = "/contact"
 
-    [[params.profileMode.buttons]]
-      name = "Choisir Simerics-MP"
-      url = "/choisir-simerics"
-
   [[params.socialIcons]]
     name = "email"
     url = "/contact"

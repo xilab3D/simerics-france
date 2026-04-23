@@ -180,23 +180,37 @@ h1, h2, h3 {
   color: inherit;
   max-width: none;
 }
-/* Saut de ligne avant le dernier bouton (CTA orange) */
+/* Saut de ligne avant le CTA orange (seul sur la 2e ligne) */
 .profile .profile_inner .buttons::before {
   content: '';
   flex-basis: 100%;
   height: 0;
   order: 1;
 }
-.profile .profile_inner .buttons a:last-child {
+.profile .profile_inner .buttons a.btn-cta-orange {
   order: 2;
 }
 @media (max-width: 640px) {
   .profile .profile_inner .buttons { max-width: 320px; }
 }
-/* Bouton CTA orange (dernier bouton : "Choisir Simerics-MP")
-   Même style que btn-move2digital d'xilab : outline orange puis fond
-   orange au survol */
-.profile .profile_inner .buttons a.button:last-child {
+/* Bouton bleu "Galerie d'exemples" (1re ligne, outline bleu marine
+   → fond bleu au survol, style btn-plaquette d'xilab) */
+.profile .profile_inner .buttons a.button.btn-galerie {
+  padding: 8px 22px;
+  border: 2px solid var(--darkcolor);
+  background: transparent;
+  color: var(--darkcolor);
+  font-weight: 600;
+  transition: background 0.15s, color 0.15s;
+}
+.profile .profile_inner .buttons a.button.btn-galerie:hover {
+  background: var(--darkcolor);
+  color: #fff;
+}
+
+/* Bouton orange "Choisir Simerics-MP" (2e ligne, style
+   btn-move2digital d'xilab) */
+.profile .profile_inner .buttons a.button.btn-cta-orange {
   padding: 8px 22px;
   border: 2px solid #e07b20;
   background: transparent;
@@ -204,7 +218,7 @@ h1, h2, h3 {
   font-weight: 600;
   transition: background 0.15s, color 0.15s;
 }
-.profile .profile_inner .buttons a.button:last-child:hover {
+.profile .profile_inner .buttons a.button.btn-cta-orange:hover {
   background: #e07b20;
   color: #fff;
 }
