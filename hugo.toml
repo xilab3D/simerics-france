@@ -94,9 +94,9 @@ enableInlineShortcodes = true
     weight = 30
 
   [[menu.main]]
-    identifier = "ressources"
-    name = "Ressources"
-    url = "/ressources/"
+    identifier = "liens-utiles"
+    name = "Liens utiles"
+    url = "/liens-utiles/"
     weight = 40
 
   [[menu.main]]
