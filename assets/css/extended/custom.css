@@ -141,26 +141,26 @@ h1, h2, h3 {
   .header-logo-img { height: 28px !important; }
   .header-logo-france { font-size: 0.95rem; }
 }
-.profile-mode .profile_inner h1 {
+.profile .profile_inner h1 {
   font-family: var(--font-serif);
   font-size: 2.4rem;
   font-weight: normal;
   letter-spacing: -0.02em;
   margin-bottom: 12px;
 }
-.profile-mode .profile_inner p,
-.profile-mode .profile_inner span {
+.profile .profile_inner p,
+.profile .profile_inner span {
   font-size: 1.05rem;
   color: var(--secondary);
   max-width: 620px;
   line-height: 1.65;
   white-space: pre-line;
 }
-.profile-mode .profile_inner .buttons {
+.profile .profile_inner .buttons {
   margin-top: 28px;
   gap: 10px;
 }
-.profile-mode .profile_inner .buttons a {
+.profile .profile_inner .buttons a {
   font-family: var(--font-sans);
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -169,7 +169,7 @@ h1, h2, h3 {
   border-radius: var(--radius);
   transition: border-color 0.15s, color 0.15s, background 0.15s;
 }
-.profile-mode .profile_inner .buttons a:hover {
+.profile .profile_inner .buttons a:hover {
   border-color: var(--darkcolor);
   color: var(--darkcolor);
   background: var(--lightcolor);
@@ -177,12 +177,12 @@ h1, h2, h3 {
 
 /* Bouton CTA orange (dernier bouton : "Choisir Simerics-MP")
    Reprend le style orange de xilab-hugo (btn-move2digital) */
-.profile-mode .profile_inner .buttons a:last-child {
+.profile .profile_inner .buttons a:last-child {
   border: 2px solid #e07b20;
   color: #e07b20;
   font-weight: 600;
 }
-.profile-mode .profile_inner .buttons a:last-child:hover {
+.profile .profile_inner .buttons a:last-child:hover {
   background: #e07b20;
   color: #fff;
   border-color: #e07b20;
