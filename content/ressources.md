@@ -17,12 +17,12 @@ Une sélection de ressources pour découvrir les capacités de Simerics et son �
 ## Écosystème et intégrations
 
 - [CFturbo](https://cfturbo.com) — design de turbomachines, export direct vers Simerics-MP / PumpLinx
-- [FRIENDSHIP-Framework / CAESES](https://www.friendship-systems.com/solutions/for-cfd-engineers/simerics-mp-pumplinx/) — optimisation paramétrique de carène
-- [8020 Engineering](https://8020engineering.com/pumplinx/) — distributeur historique
+- [Simerics Allemagne](https://www.simerics.de) — distributeur Simerics Allemagne
+- [8020 Engineering](https://8020engineering.com/) — distributeur historique Angleterre
 
 ## Alliances européennes
 
-Simerics est membre actif de :
+Simerics.de est membre actif de :
 
 - **Allianz Wasserstoffmotor** — alliance dédiée au moteur à hydrogène
 - **P2X4A — Power-to-X for Application** — réseau VDMA dédié à la transition énergétique

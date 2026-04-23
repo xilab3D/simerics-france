@@ -276,12 +276,20 @@ h1, h2, h3 {
 .card ul li:last-child { border-bottom: none; }
 .card a.card-link {
   display: inline-block;
-  margin-top: 12px;
+  margin-top: 14px;
+  padding: 6px 14px;
   font-size: 0.9rem;
+  font-weight: 600;
   color: var(--darkcolor);
-  text-decoration: none;
+  border: 1px solid var(--darkcolor);
+  border-radius: var(--radius);
+  text-decoration: none !important;
+  transition: background 0.15s, color 0.15s;
 }
-.card a.card-link:hover { text-decoration: underline; }
+.card a.card-link:hover {
+  background: var(--darkcolor);
+  color: #fff;
+}
 
 /* 4 colonnes forcées (services / KPI) */
 .grid-4 {
