@@ -162,15 +162,21 @@ h1, h2, h3 {
   max-width: 700px;
   justify-content: center;
 }
-/* Force le bouton orange (Choisir Simerics-MP) sur sa propre ligne */
-.profile .profile_inner .buttons a:last-child {
+/* Saut de ligne forcé avant le dernier bouton (CTA orange)
+   via un pseudo-élément flex invisible. Le bouton conserve sa
+   largeur naturelle (ajustée au texte). */
+.profile .profile_inner .buttons::before {
+  content: '';
   flex-basis: 100%;
-  text-align: center;
+  height: 0;
+  order: 1;
+}
+.profile .profile_inner .buttons a:last-child {
+  order: 2;
   margin-top: 6px;
 }
 @media (max-width: 640px) {
   .profile .profile_inner .buttons { max-width: 320px; }
-  .profile .profile_inner .buttons a:last-child { flex-basis: auto; }
 }
 .profile .profile_inner .buttons a {
   font-family: var(--font-sans);
