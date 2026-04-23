@@ -187,6 +187,7 @@ h1, h2, h3 {
   height: 0;
   order: 1;
 }
+.profile .profile_inner .buttons a.btn-galerie,
 .profile .profile_inner .buttons a.btn-cta-orange {
   order: 2;
 }
