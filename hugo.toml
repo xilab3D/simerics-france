@@ -100,9 +100,9 @@ enableInlineShortcodes = true
     weight = 40
 
   [[menu.main]]
-    identifier = "blog"
-    name = "Actualités"
-    url = "/blog/"
+    identifier = "ressources"
+    name = "Ressources"
+    url = "/ressources/"
     weight = 50
 
   [[menu.main]]

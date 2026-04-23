@@ -32,7 +32,7 @@ Simerics.de est membre actif de :
 - **European Simerics User Meeting** — rendez-vous annuel des utilisateurs européens
 - **Wiener Motoren Symposium**
 - **DRITEV** (Baden-Baden) — conférence automobile
-- **Salons & journées techniques** — calendrier publié sur la page [Actualités](/blog)
+- **Salons & journées techniques** — calendrier publié sur la page [Ressources](/ressources)
 
 ---
 

@@ -51,7 +51,7 @@ La suite Simerics est utilisée quotidiennement par des constructeurs et équipe
 
 ## Secteurs et clients de référence
 
-Simerics est utilisé par de grands acteurs industriels — quelques exemples cités sur Simerics-MP+ : **GM, Ford, Toyota, Honda, Bosch, Rolls-Royce, GE Aviation, Cummins**, ainsi que de nombreuses universités et centres de recherche.
+Simerics est utilisé par de grands acteurs industriels — quelques exemples : **GM, Ford, Toyota, Honda, Bosch, Rolls-Royce, GE Aviation, Cummins**, ainsi que de nombreuses universités et centres de recherche.
 
 En France, Simerics France accompagne les équipementiers, bureaux d'études et laboratoires académiques sur l'ensemble de ces secteurs.
 
