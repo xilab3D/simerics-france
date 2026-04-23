@@ -159,13 +159,21 @@ h1, h2, h3 {
   line-height: 1.65;
   white-space: pre-line;
 }
-/* Boutons accueil : on laisse PaperMod gérer la pill grise par défaut,
-   on élargit juste le conteneur pour mettre les 3 boutons standards
-   sur une ligne + pseudo-élément pour faire sauter la 2e ligne. */
+/* Boutons accueil : on reproduit le style d'xilab.tech
+   (PaperMod ancien : margin 8px + padding 6px + .button-inner 0 8px) */
 .profile .profile_inner .buttons {
   max-width: 700px;
+  gap: 0;
   justify-content: center;
 }
+.profile .profile_inner .buttons a.button {
+  margin: 8px;
+  padding: 6px;
+}
+.profile .profile_inner .buttons a.button .button-inner {
+  padding: 0 8px;
+}
+/* Saut de ligne avant le dernier bouton (CTA orange) */
 .profile .profile_inner .buttons::before {
   content: '';
   flex-basis: 100%;
