@@ -194,14 +194,18 @@ h1, h2, h3 {
   .profile .profile_inner .buttons { max-width: 320px; }
 }
 /* Bouton CTA orange (dernier bouton : "Choisir Simerics-MP")
-   Même pill que les autres mais fond orange xilab (btn-move2digital) */
+   Même style que btn-move2digital d'xilab : outline orange puis fond
+   orange au survol */
 .profile .profile_inner .buttons a.button:last-child {
-  background: #e07b20;
-  color: #fff;
+  padding: 8px 22px;
+  border: 2px solid #e07b20;
+  background: transparent;
+  color: #e07b20;
   font-weight: 600;
+  transition: background 0.15s, color 0.15s;
 }
 .profile .profile_inner .buttons a.button:last-child:hover {
-  background: #c46a18;
+  background: #e07b20;
   color: #fff;
 }
 
