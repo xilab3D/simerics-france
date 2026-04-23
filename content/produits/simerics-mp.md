@@ -32,7 +32,7 @@ De l'import CAO au rapport final, tout se fait dans une interface unique :
 - **Mailleur binaire** : robustesse sur géométries complexes, génération en quelques minutes
 - **Solveur couplé** : convergence rapide, large pas de temps possible
 - **Précision** : ordre 2 en espace et en temps, schémas TVD
-- **Productivité** : typiquement **5× plus rapide** que les codes CFD généralistes sur les pompes et turbomachines
+- **Productivité** : typiquement **5 à 10× plus rapide** que les codes CFD généralistes sur les pompes et turbomachines
 
 ---
 

@@ -9,7 +9,7 @@ TocOpen: false
 
 <div class="cards-grid">
 
-<div class="card">
+<div class="card accent">
 <h3>Vehicle</h3>
 <ul>
 <li>Aéro externe véhicule complet</li>
@@ -21,7 +21,7 @@ TocOpen: false
 </ul>
 </div>
 
-<div class="card">
+<div class="card accent">
 <h3>Marine</h3>
 <ul>
 <li>Performance de carène (résistance, vagues)</li>
@@ -32,7 +32,7 @@ TocOpen: false
 </ul>
 </div>
 
-<div class="card">
+<div class="card accent">
 <h3>PD (Positive Displacement)</h3>
 <ul>
 <li>Pompes à engrenages externes / internes</li>
@@ -43,7 +43,7 @@ TocOpen: false
 </ul>
 </div>
 
-<div class="card">
+<div class="card accent">
 <h3>Turbo</h3>
 <ul>
 <li>Pompes centrifuges, axiales, mixtes</li>
@@ -54,7 +54,7 @@ TocOpen: false
 </ul>
 </div>
 
-<div class="card">
+<div class="card accent">
 <h3>Valves</h3>
 <ul>
 <li>Valves spool, axiales, à boule</li>
@@ -64,7 +64,7 @@ TocOpen: false
 </ul>
 </div>
 
-<div class="card">
+<div class="card accent">
 <h3>Systems</h3>
 <ul>
 <li>Combinaison de plusieurs modules</li>

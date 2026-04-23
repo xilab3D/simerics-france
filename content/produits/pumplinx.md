@@ -12,7 +12,7 @@ TocOpen: false
 - **Géométries en mouvement natif** : rotation, glissement, déformation — sans remaillage
 - **Cavitation** : modèle physique très éprouvé en pompes haute pression
 - **Templates pompes** : configurations pré-programmées (gear pump, vane pump, gerotor, lobe, scroll, screw, axial piston, progressive cavity)
-- **Performance** : typiquement **5× plus rapide** que les codes CFD généralistes
+- **Performance** : typiquement **5 à 10× plus rapide** que les codes CFD généralistes
 - **Intégration CFturbo** : import direct depuis CFturbo pour les turbomachines
 
 ## Cas d'usage typiques

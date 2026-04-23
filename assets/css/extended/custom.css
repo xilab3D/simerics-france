@@ -247,7 +247,9 @@ h1, h2, h3 {
 .card:hover {
   border-color: var(--darkcolor);
 }
-.card.accent { border-color: var(--accentcolor); }
+.card.accent {
+  border: 2px solid var(--accentcolor);
+}
 .card h3 {
   font-family: var(--font-serif);
   font-size: 1.15rem;
