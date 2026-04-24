@@ -78,7 +78,7 @@ Simerics France est une activité portée par **XiLAB3D+**, bureau d'études bas
 </div>
 
 <div class="contact-item">
-<strong>Siège</strong>
+<strong>Distributeur France</strong>
 XiLAB3Dplus SARL<br>
 1 rue des Cordeliers<br>
 04200 Sisteron, France<br>
