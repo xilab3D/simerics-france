@@ -67,10 +67,13 @@ h1, h2, h3 {
 /* GIF héros sous le logo */
 .hero-visual {
   margin: 0 auto 28px;
-  max-width: 560px;
+  max-width: 600px;
+  padding: 16px;
+  background: #fff;
   border-radius: 6px;
   overflow: hidden;
   box-shadow: 0 3px 16px rgba(30, 47, 128, 0.18);
+  box-sizing: border-box;
 }
 .hero-visual img {
   width: 100%;
