@@ -5,6 +5,10 @@ description: "Simerics-MP+® Turbo — Pompes centrifuges, compresseurs, turbine
 
 Le module **Simerics-MP+® Turbo** couvre l'ensemble des machines tournantes à fluide.
 
+<div class="hero-visual">
+  <img src="/images/applications/turbomachines.gif" alt="Simerics-MP+ Turbo — simulation de turbomachine" loading="lazy">
+</div>
+
 ## Cas d'usage
 
 - **Pompes centrifuges, axiales, mixtes** — courbes H/Q, NPSH, rendement
