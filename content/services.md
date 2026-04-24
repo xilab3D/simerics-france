@@ -36,7 +36,7 @@ Simerics France propose un accompagnement complet autour de la suite logicielle 
 <div class="card accent">
 <h3>Formation</h3>
 <ul>
-<li>Prise en main Simerics-MP</li>
+<li>Prise en main Simerics-MP/MP+</li>
 <li>Modules métiers (PD, Turbo, Vehicle...)</li>
 <li>Sur site ou à distance</li>
 <li>Formations sur cas client</li>
@@ -63,17 +63,17 @@ Simerics France propose un accompagnement complet autour de la suite logicielle 
 
 ## Formations {#formations}
 
-Toutes nos formations sont dispensées par des **ingénieurs CFD praticiens** ayant une expérience industrielle directe sur Simerics.
+Toutes nos formations sont dispensées par des **ingénieurs CFD praticiens** ayant une expérience industrielle directe sur Simerics. Les durées sont indiquées à titre informatif, une réunion préalable sera nécessaire pour estimer les compétences initiales. 
 
 | Formation | Durée | Format |
 |-----------|-------|--------|
-| **Prise en main Simerics-MP** | 3 jours | Sur site ou à distance |
-| **Module PD : pompes volumétriques** | 2 jours | Sur cas client possible |
+| **Prise en main Simerics-MP/MP+** | 1 jour | Sur site ou à distance |
+| **Module PD : pompes volumétriques** | 2 jours | Sur site ou à distance |
 | **Module Turbo : pompes centrifuges** | 2 jours | Avec intégration CFturbo |
-| **Module Valves & systèmes hydrauliques** | 2 jours | Sur site |
-| **Module Vehicle : aéro & thermique** | 3 jours | Cluster recommandé |
+| **Module Valves & systèmes hydrauliques** | 2 jours | Sur site ou à distance |
+| **Module Vehicle : aéro & thermique** | 3 jours | Sur site ou à distance |
 | **Cavitation avancée** | 1 jour | Module thématique |
-| **Automatisation Python / scripts** | 1 jour | Productivité |
+| **Automatisation Python / scripts** | 1 jour | Sur site ou à distance |
 | **Formation sur cas client** | sur mesure | À définir |
 
 → [Demander un programme détaillé](/contact)
