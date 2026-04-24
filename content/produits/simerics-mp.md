@@ -9,7 +9,7 @@ TocOpen: false
 
 ## Capacités physiques
 
-- **Écoulements** mono et multi-phasiques (liquide, gaz, particules, surface libre)
+- **Écoulements** mono et multiphasiques (liquide, gaz, particules, surface libre)
 - **Turbulence** : k-ε, k-ω SST, RNG, modèles bas Reynolds
 - **Cavitation et aération** : modèle physique éprouvé en pompes haute pression
 - **Transferts thermiques** : conduction, convection, rayonnement, conjugate heat transfer (CHT)

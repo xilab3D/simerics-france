@@ -18,7 +18,7 @@ La gamme Simerics est une suite logicielle de **dynamique des fluides numérique
 
 <div class="card accent">
 <h3>Simerics-MP®</h3>
-<p>Le noyau CFD 3D : flux mono/multi-phasique, turbulence, cavitation, transferts thermiques, particules lagrangiennes, FSI, maillages mobiles.</p>
+<p>Le noyau CFD 3D : écoulements mono et multiphasiques, turbulence, cavitation, transferts thermiques, particules lagrangiennes, FSI, maillages dynamiques (rotation/glissement).</p>
 <a class="card-link" href="/produits/simerics-mp/">En savoir plus →</a>
 </div>
 

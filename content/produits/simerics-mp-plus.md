@@ -12,7 +12,7 @@ TocOpen: false
 <div class="card accent">
 <h3>Vehicle</h3>
 <ul>
-<li>Aéro externe véhicule complet</li>
+<li>Aérodynamique externe véhicule complet</li>
 <li>Underhood / underbody</li>
 <li>Gestion thermique batterie / moteur</li>
 <li>HVAC, dégivrage pare-brise</li>

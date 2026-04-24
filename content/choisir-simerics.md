@@ -55,7 +55,7 @@ Cette page répond à une question simple : **pourquoi choisir Simerics-MP+ plut
 | **Mise en données** | Longue, manuelle, nettoyage CAO fastidieux | Automatisée, templates métiers |
 | **Vitesse de calcul** | Standard | **Typiquement 5 à 10× plus rapide** sur pompes / turbomachines |
 | **Courbe d'apprentissage** | Plusieurs mois de formation | Opérationnel en quelques jours |
-| **Transitoires 3D** | Très gourmands en ressources | Fluides, adaptés au cahier des charges industriel |
+| **Transitoires 3D** | Très gourmands en ressources | Rapides, adaptés au cahier des charges industriel |
 | **Cavitation** | Modèles souvent limités | Modèle physique éprouvé, prédictif |
 | **Modèle commercial** | Licences souvent complexes (tokens, cloud, modules) | Lisible, licences perpétuelles ou annuelles |
 
