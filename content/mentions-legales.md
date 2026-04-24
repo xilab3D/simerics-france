@@ -36,7 +36,7 @@ Site hébergé par **GitHub Pages** — GitHub, Inc., 88 Colin P. Kelly Jr Stree
 
 **Simerics-MP®**, **Simerics-MP+®** et **PumpLinx®** sont des marques déposées de **Simerics, Inc.** (USA).
 
-XiLAB3D+ (via son activité Simerics France) est représentant indépendant des produits Simerics sur le territoire français. Les contenus techniques de ce site s'appuient sur la documentation publique de l'éditeur ([simerics.com](https://www.simerics.com)).
+XiLAB3D+ (via son activité Simerics France) est distributeur en France des produits Simerics sur le territoire français. Les contenus techniques de ce site s'appuient sur la documentation publique de l'éditeur ([simerics.com](https://www.simerics.com)).
 
 L'ensemble des contenus rédactionnels et graphiques de ce site est protégé par le droit d'auteur. Toute reproduction, même partielle, est soumise à autorisation préalable.
 

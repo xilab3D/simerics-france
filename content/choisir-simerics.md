@@ -9,7 +9,7 @@ Cette page répond à une question simple : **pourquoi choisir Simerics-MP+ plut
 
 ## En synthèse : 
 
-> *Simerics-MP+ est un code CFD 3D spécialisé qui fait passer certaines simulations industrielles **de plusieurs jours à quelques heures**. Contrairement aux outils généralistes, il automatise le maillage et propose des **modules métiers pré-configurés** (pompes, valves, turbomachines, véhicule, marine) qui délivrent des résultats validés expérimentalement avec une vitesse de calcul **typiquement 5× supérieure**.*
+> *Simerics-MP+ est un code CFD 3D spécialisé qui fait passer certaines simulations industrielles **de plusieurs jours à quelques heures**. Contrairement aux outils généralistes, il automatise le maillage et propose des **modules métiers pré-configurés** (pompes, valves, turbomachines, véhicule, marine) qui délivrent des résultats validés expérimentalement avec une vitesse de calcul **typiquement 5 à 10× supérieure**.*
 
 <a href="/contact" class="btn-cta">Demander un benchmark sur vos géométries →</a>
 
@@ -53,7 +53,7 @@ Cette page répond à une question simple : **pourquoi choisir Simerics-MP+ plut
 | Critère | Codes CFD généralistes | Simerics-MP+ |
 |---------|------------------------|--------------|
 | **Mise en données** | Longue, manuelle, nettoyage CAO fastidieux | Automatisée, templates métiers |
-| **Vitesse de calcul** | Standard | **Typiquement 5× plus rapide** sur pompes / turbomachines |
+| **Vitesse de calcul** | Standard | **Typiquement 5 à 10× plus rapide** sur pompes / turbomachines |
 | **Courbe d'apprentissage** | Plusieurs mois de formation | Opérationnel en quelques jours |
 | **Transitoires 3D** | Très gourmands en ressources | Fluides, adaptés au cahier des charges industriel |
 | **Cavitation** | Modèles souvent limités | Modèle physique éprouvé, prédictif |

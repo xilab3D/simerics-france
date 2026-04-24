@@ -23,7 +23,7 @@ Le module **Simerics-MP+® Turbo** couvre l'ensemble des machines tournantes à 
 - **Cartes de performance complètes** générées automatiquement
 - **Cavitation** sur pompes haute énergie
 - **Intégration CFturbo** : design + simulation dans le même flux
-- Vitesse de calcul typiquement **5× supérieure** aux codes généralistes
+- Vitesse de calcul typiquement **5 à 10× supérieure** aux codes généralistes
 
 ---
 
