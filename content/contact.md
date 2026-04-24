@@ -7,7 +7,7 @@ description: "Contacter Simerics France — Demande de démo, devis, support, fo
 
 Nous répondons généralement dans les 24 heures ouvrées.
 
-<form class="contact-form" action="https://formsubmit.co/ngardan@xilab.tech" method="POST">
+<form class="contact-form" action="https://formsubmit.co/contact@xilab3dplus.com" method="POST">
   <input type="hidden" name="_subject" value="Contact via simerics.fr">
   <input type="hidden" name="_next" value="https://simerics.fr/contact/?merci=1">
   <input type="hidden" name="_captcha" value="false">
@@ -57,7 +57,7 @@ Nous répondons généralement dans les 24 heures ouvrées.
 
 Une démonstration en visio dure environ **45 minutes** et peut être ciblée sur votre application (pompe, valve, véhicule, marine…). Elle est animée par un ingénieur CFD.
 
-→ Cocher *« Demande de démonstration »* dans le formulaire ci-dessus, ou écrire directement à `ngardan@xilab.tech`.
+→ Cocher *« Demande de démonstration »* dans le formulaire ci-dessus, ou écrire directement à `contact@xilab3dplus.com`.
 
 ---
 
@@ -69,7 +69,7 @@ Simerics France est une activité portée par **XiLAB3D+**, bureau d'études bas
 
 <div class="contact-item">
 <strong>E-mail</strong>
-<a href="mailto:ngardan@xilab.tech">ngardan@xilab.tech</a>
+<a href="mailto:contact@xilab3dplus.com">contact@xilab3dplus.com</a>
 </div>
 
 <div class="contact-item">
