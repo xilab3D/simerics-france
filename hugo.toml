@@ -58,7 +58,7 @@ enableInlineShortcodes = true
 
   [[params.socialIcons]]
     name = "calendar"
-    url = "/contact#demo"
+    url = "https://calendar.app.google/MATDAF7zhduQhWx26"
     title = "Demander une démo"
 
   [[params.socialIcons]]
