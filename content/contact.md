@@ -7,7 +7,7 @@ description: "Contacter Simerics France — Demande de démo, devis, support, fo
 
 Nous répondons généralement dans les 24 heures ouvrées.
 
-<form class="contact-form" action="https://formsubmit.co/contact@xilab.tech" method="POST">
+<form class="contact-form" action="https://formsubmit.co/ngardan@xilab.tech" method="POST">
   <input type="hidden" name="_subject" value="Contact via simerics.fr">
   <input type="hidden" name="_next" value="https://simerics.fr/contact/?merci=1">
   <input type="hidden" name="_captcha" value="false">
