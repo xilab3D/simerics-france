@@ -3,6 +3,7 @@ title: "Produits Simerics"
 description: "Simerics MP, Simerics MP+ et PumpLinx — Suite logicielle CFD 3D"
 ShowToc: true
 TocOpen: false
+layout: single
 ---
 
 La gamme Simerics est une suite logicielle de **dynamique des fluides numérique (CFD) 3D** basée sur la méthode des **volumes finis**, structurée autour d'un noyau commun (Simerics-MP®) et de modules métiers (Simerics-MP+®). L'ensemble est reconnu pour être typiquement **5 à 10 × plus rapide** que les codes CFD généralistes sur les applications de pompes et de machines tournantes.
