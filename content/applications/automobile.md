@@ -5,6 +5,10 @@ description: "Simerics-MP+® for Vehicle — Aérodynamique, gestion thermique, 
 
 Le module **Simerics-MP+® for Vehicle** est conçu pour les constructeurs et équipementiers automobiles. Il permet de simuler des modèles complets pouvant comporter **plus de 1 000 pièces** dans une seule étude.
 
+<div class="hero-visual">
+  <img src="/images/applications/automotive-aerodynamics.gif" alt="Automotive Aerodynamics — Underhood Flow" loading="lazy">
+</div>
+
 ## Cas d'usage
 
 - **Aérodynamique externe** — traînée, portance, écoulements latéraux
