@@ -27,7 +27,7 @@ Simerics France propose un accompagnement complet autour de la suite logicielle 
 <ul>
 <li>Hotline en français</li>
 <li>Support de premier niveau</li>
-<li>Escalade éditeur (USA / DE)</li>
+<li>Réunions régulières définies sur l'année</li>
 <li>Mises à jour incluses</li>
 <li>Portail client</li>
 </ul>

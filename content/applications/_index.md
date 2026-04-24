@@ -3,6 +3,7 @@ title: "Applications industrielles"
 description: "Simerics MP / MP+ par secteur : automobile, marine, aéronautique, hydraulique, turbomachines, énergie"
 ShowToc: true
 TocOpen: false
+layout: single
 ---
 
 La suite Simerics est utilisée quotidiennement par des constructeurs et équipementiers industriels dans le monde entier. Voici les principaux secteurs d'application en France.
