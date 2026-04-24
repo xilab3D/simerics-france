@@ -5,6 +5,10 @@ description: "Simerics-MP+® for Marine — Hydrodynamique, propulsion, manœuvr
 
 Le module **Simerics-MP+® for Marine** couvre l'ensemble des problématiques d'hydrodynamique navale, de la résistance de carène à la manœuvrabilité.
 
+<div class="hero-visual">
+  <img src="/images/applications/marine.gif" alt="Simerics-MP+ for Marine — simulation hydrodynamique" loading="lazy">
+</div>
+
 ## Cas d'usage
 
 - **Résistance de carène** — friction, vagues, déplacement
