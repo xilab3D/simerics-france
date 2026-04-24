@@ -68,7 +68,7 @@ enableInlineShortcodes = true
 
   [[params.socialIcons]]
     name = "linkedin"
-    url = "https://www.linkedin.com/company/simerics/"
+    url = "https://www.linkedin.com/in/nicolas-gardan-19ba526/"
 
 [menu]
   [[menu.main]]
