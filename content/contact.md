@@ -63,7 +63,7 @@ Une démonstration en visio dure environ **45 minutes** et peut être ciblée su
 
 ## Localisation {#localisation}
 
-Simerics France est une activité portée par **XiLAB3D+**, bureau d'études basé à Sisteron (Alpes-de-Haute-Provence). Déplacements clients sur tout le territoire français et en Europe francophone.
+Simerics France est une activité portée par **XiLAB3D+**, bureau d'études basé à Sisteron (Alpes-de-Haute-Provence). Déplacements clients sur tout le territoire français.
 
 <div class="contact-grid">
 

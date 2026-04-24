@@ -7,7 +7,7 @@ TocOpen: false
 
 Cette page répond à une question simple : **pourquoi choisir Simerics-MP+ plutôt qu'un code CFD généraliste ?** Elle s'adresse aussi bien au directeur technique qu'à l'ingénieur BE ou à l'acheteur.
 
-## En 30 secondes
+## En synthèse : 
 
 > *Simerics-MP+ est un code CFD 3D spécialisé qui fait passer certaines simulations industrielles **de plusieurs jours à quelques heures**. Contrairement aux outils généralistes, il automatise le maillage et propose des **modules métiers pré-configurés** (pompes, valves, turbomachines, véhicule, marine) qui délivrent des résultats validés expérimentalement avec une vitesse de calcul **typiquement 5× supérieure**.*
 
