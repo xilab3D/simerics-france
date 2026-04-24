@@ -13,23 +13,27 @@ La gamme Simerics est une suite logicielle de **dynamique des fluides numérique
 
 ## La gamme en un coup d'œil
 
-### Simerics-MP®
+<div class="cards-grid">
 
-Le noyau CFD 3D : flux mono/multi-phasique, turbulence, cavitation, transferts thermiques, particules lagrangiennes, FSI, maillages mobiles.
+<div class="card accent">
+<h3>Simerics-MP®</h3>
+<p>Le noyau CFD 3D : flux mono/multi-phasique, turbulence, cavitation, transferts thermiques, particules lagrangiennes, FSI, maillages mobiles.</p>
+<a class="card-link" href="/produits/simerics-mp/">En savoir plus →</a>
+</div>
 
-<a class="btn-secondary" href="/produits/simerics-mp/">En savoir plus →</a>
+<div class="card accent">
+<h3>Simerics-MP+®</h3>
+<p>Modules métiers verticaux : Vehicle, Marine, PD, Turbo, Valves, Systems. Workflows pré-paramétrés pour des temps de mise en œuvre de quelques minutes.</p>
+<a class="card-link" href="/produits/simerics-mp-plus/">En savoir plus →</a>
+</div>
 
-### Simerics-MP+®
+<div class="card accent">
+<h3>PumpLinx®</h3>
+<p>Code historique Simerics dédié aux pompes, moteurs, turbines, compresseurs et valves avec géométries en mouvement (rotation/glissement).</p>
+<a class="card-link" href="/produits/pumplinx/">En savoir plus →</a>
+</div>
 
-Modules métiers verticaux : Vehicle, Marine, PD, Turbo, Valves, Systems. Workflows pré-paramétrés pour des temps de mise en œuvre de quelques minutes.
-
-<a class="btn-secondary" href="/produits/simerics-mp-plus/">En savoir plus →</a>
-
-### PumpLinx®
-
-Code historique Simerics dédié aux pompes, moteurs, turbines, compresseurs et valves avec géométries en mouvement (rotation/glissement).
-
-<a class="btn-secondary" href="/produits/pumplinx/">En savoir plus →</a>
+</div>
 
 ---
 

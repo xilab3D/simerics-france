@@ -7,41 +7,45 @@ TocOpen: false
 
 La suite Simerics est utilisée quotidiennement par des constructeurs et équipementiers industriels dans le monde entier. Voici les principaux secteurs d'application en France.
 
-### Automobile
+<div class="cards-grid">
 
-Aéro véhicule, gestion thermique batterie / moteur, HVAC, sloshing carburant, refroidissement de puissance.
+<div class="card accent">
+<h3>Automobile</h3>
+<p>Aéro véhicule, gestion thermique batterie / moteur, HVAC, sloshing carburant, refroidissement de puissance.</p>
+<a class="card-link" href="/applications/automobile/">En savoir plus →</a>
+</div>
 
-<a class="btn-secondary" href="/applications/automobile/">En savoir plus →</a>
+<div class="card accent">
+<h3>Aéronautique & Défense</h3>
+<p>Aérodynamique subsonique à supersonique, refroidissement, circuits carburant, systèmes hydrauliques de bord.</p>
+<a class="card-link" href="/applications/aeronautique/">En savoir plus →</a>
+</div>
 
-### Aéronautique & Défense
+<div class="card accent">
+<h3>Marine & Naval</h3>
+<p>Hydrodynamique de carène, auto-propulsion, manœuvrabilité, hélices et pods.</p>
+<a class="card-link" href="/applications/marine/">En savoir plus →</a>
+</div>
 
-Aérodynamique subsonique à supersonique, refroidissement, circuits carburant, systèmes hydrauliques de bord.
+<div class="card accent">
+<h3>Hydraulique & Lubrification</h3>
+<p>Pompes volumétriques, moteurs, valves, distributeurs, circuits hydrauliques complets.</p>
+<a class="card-link" href="/applications/hydraulique/">En savoir plus →</a>
+</div>
 
-<a class="btn-secondary" href="/applications/aeronautique/">En savoir plus →</a>
+<div class="card accent">
+<h3>Turbomachines</h3>
+<p>Pompes centrifuges, compresseurs, turbines, ventilateurs — cartes de performance complètes.</p>
+<a class="card-link" href="/applications/turbomachines/">En savoir plus →</a>
+</div>
 
-### Marine & Naval
+<div class="card accent">
+<h3>Énergie & Hydrogène</h3>
+<p>Moteurs à hydrogène, électrolyseurs, refroidissement de stacks PEM, Power-to-X.</p>
+<a class="card-link" href="/applications/energie/">En savoir plus →</a>
+</div>
 
-Hydrodynamique de carène, auto-propulsion, manœuvrabilité, hélices et pods.
-
-<a class="btn-secondary" href="/applications/marine/">En savoir plus →</a>
-
-### Hydraulique & Lubrification
-
-Pompes volumétriques, moteurs, valves, distributeurs, circuits hydrauliques complets.
-
-<a class="btn-secondary" href="/applications/hydraulique/">En savoir plus →</a>
-
-### Turbomachines
-
-Pompes centrifuges, compresseurs, turbines, ventilateurs — cartes de performance complètes.
-
-<a class="btn-secondary" href="/applications/turbomachines/">En savoir plus →</a>
-
-### Énergie & Hydrogène
-
-Moteurs à hydrogène, électrolyseurs, refroidissement de stacks PEM, Power-to-X.
-
-<a class="btn-secondary" href="/applications/energie/">En savoir plus →</a>
+</div>
 
 ---
 
