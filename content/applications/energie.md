@@ -5,6 +5,10 @@ description: "Simerics pour la transition énergétique : H2, électrolyse, Powe
 
 La transition énergétique est un axe stratégique de Simerics, qui participe à plusieurs alliances européennes : **Allianz Wasserstoffmotor** (moteur à hydrogène) et **P2X4A — Power-to-X for Application** (réseau VDMA).
 
+<div class="hero-visual">
+  <img src="/images/applications/energie.jpg" alt="Simerics pour la transition énergétique — H2, électrolyse, Power-to-X" loading="lazy">
+</div>
+
 ## Cas d'usage
 
 - **Moteurs à hydrogène** — combustion H2, refroidissement

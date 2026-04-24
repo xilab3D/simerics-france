@@ -5,6 +5,10 @@ description: "Simerics pour l'aérodynamique, les systèmes carburant et hydraul
 
 Simerics est utilisé en aéronautique pour des applications allant de l'**aérodynamique externe** au dimensionnement des **systèmes fluides embarqués**.
 
+<div class="hero-visual">
+  <img src="/images/applications/aero.jpg" alt="Aérodynamique aéronautique — Simerics-MP+" loading="lazy">
+</div>
+
 ## Cas d'usage
 
 - **Aérodynamique** subsonique, transsonique, supersonique
