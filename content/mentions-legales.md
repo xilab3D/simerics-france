@@ -18,7 +18,7 @@ Le site **simerics.fr** est édité par :
 - N° RCS Manosque : 933 003 048
 - Siège social : 1 rue des cordeliers, 04200 Sisteron
 - Téléphone : 06 73 28 43 14
-- Email : [contact@xilab.tech](mailto:contact@xilab.tech)
+- Email : [ngardan@xilab.tech](mailto:ngardan@xilab.tech)
 - N° TVA intracommunautaire : FR48933003048
 - Directeur de la publication : Nicolas Gardan
 
@@ -54,7 +54,7 @@ Ce site est conforme aux lois françaises de protection des données personnelle
 
 Le formulaire de contact transite par **FormSubmit.co**. Les données saisies ne sont utilisées que pour traiter votre demande et ne sont ni revendues ni cédées à des tiers.
 
-Les utilisateurs disposent d'un droit d'accès, de rectification, de suppression et d'opposition aux données les concernant, exerçable par courriel à l'adresse : [contact@xilab.tech](mailto:contact@xilab.tech).
+Les utilisateurs disposent d'un droit d'accès, de rectification, de suppression et d'opposition aux données les concernant, exerçable par courriel à l'adresse : [ngardan@xilab.tech](mailto:ngardan@xilab.tech).
 
 ---
 
