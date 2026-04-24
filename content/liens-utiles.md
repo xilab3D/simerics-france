@@ -20,19 +20,17 @@ Une sélection de liens utiles pour découvrir les capacités de Simerics et son
 - [Simerics Allemagne](https://www.simerics.de) — distributeur Simerics Allemagne
 - [8020 Engineering](https://8020engineering.com/) — distributeur historique Angleterre
 
-## Alliances européennes
+## Partenaires
 
-Simerics.de est membre actif de :
+Xilab3dplus est membre actif de :
 
-- **Allianz Wasserstoffmotor** — alliance dédiée au moteur à hydrogène
-- **P2X4A — Power-to-X for Application** — réseau VDMA dédié à la transition énergétique
+- **Aktantis** — pôle de compétivité
+- **MICADO** — association depuis 1974 en simulation numérique
 
 ## Évènements
 
-- **European Simerics User Meeting** — rendez-vous annuel des utilisateurs européens
-- **Wiener Motoren Symposium**
-- **DRITEV** (Baden-Baden) — conférence automobile
-- **Salons & journées techniques** — calendrier publié sur la page [Ressources](/ressources)
+- **A venir** — ...
+
 
 ---
 
