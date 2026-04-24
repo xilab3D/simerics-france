@@ -1,24 +1,24 @@
 ---
 title: "Mentions légales"
-description: "Mentions légales du site simerics-france.fr"
+description: "Mentions légales du site simerics.fr"
 ---
 
 Mise à jour : 21 avril 2026
 
-Conformément à la loi n°2004-575 du 21 juin 2004 pour la Confiance en l'économie numérique, les présentes mentions légales s'appliquent à toute utilisation du site simerics-france.fr. L'utilisation du site implique l'acceptation intégrale de ces conditions.
+Conformément à la loi n°2004-575 du 21 juin 2004 pour la Confiance en l'économie numérique, les présentes mentions légales s'appliquent à toute utilisation du site simerics.fr. L'utilisation du site implique l'acceptation intégrale de ces conditions.
 
 ---
 
 ## Édition du site
 
-Le site **simerics-france.fr** est édité par :
+Le site **simerics.fr** est édité par :
 
 **XiLAB3Dplus** — SARL au capital de 44 000 euros
 
 - N° RCS Manosque : 933 003 048
 - Siège social : 1 rue des cordeliers, 04200 Sisteron
 - Téléphone : 06 73 28 43 14
-- Email : [contact@simerics-france.fr](mailto:contact@simerics-france.fr)
+- Email : [contact@xilab.tech](mailto:contact@xilab.tech)
 - N° TVA intracommunautaire : FR48933003048
 - Directeur de la publication : Nicolas Gardan
 
@@ -54,7 +54,7 @@ Ce site est conforme aux lois françaises de protection des données personnelle
 
 Le formulaire de contact transite par **FormSubmit.co**. Les données saisies ne sont utilisées que pour traiter votre demande et ne sont ni revendues ni cédées à des tiers.
 
-Les utilisateurs disposent d'un droit d'accès, de rectification, de suppression et d'opposition aux données les concernant, exerçable par courriel à l'adresse : [contact@simerics-france.fr](mailto:contact@simerics-france.fr).
+Les utilisateurs disposent d'un droit d'accès, de rectification, de suppression et d'opposition aux données les concernant, exerçable par courriel à l'adresse : [contact@xilab.tech](mailto:contact@xilab.tech).
 
 ---
 
