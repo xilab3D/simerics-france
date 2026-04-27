@@ -5,7 +5,7 @@ ShowToc: true
 TocOpen: false
 ---
 
-Le **mailleur automatique Simerics** repose sur un algorithme propriétaire — **Conformal Adaptive Binary-tree (CAB)** — intégré à Simerics-MP® et PumpLinx®. Il génère en quelques minutes un maillage volumique à partir de géométries CAO, y compris « sales », et constitue l'un des leviers majeurs de la productivité annoncée par Simerics (typiquement 5 à 10× plus rapide que les codes CFD généralistes).
+Le **mailleur automatique Simerics** repose sur un algorithme propriétaire — **Conformal Adaptive Binary-tree (CAB)** — intégré à Simerics-MP<sup>®</sup> et PumpLinx<sup>®</sup>. Il génère en quelques minutes un maillage volumique à partir de géométries CAO, y compris « sales », et constitue l'un des leviers majeurs de la productivité annoncée par Simerics (typiquement 5 à 10× plus rapide que les codes CFD généralistes).
 
 <a href="/pdf/simerics-france-mailleur-binary-tree.pdf" class="btn-blue-red" target="_blank">📄 Télécharger le white paper (PDF)</a>
 

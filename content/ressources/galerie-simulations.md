@@ -1,6 +1,6 @@
 ---
 title: "Galerie de simulations"
-description: "Galerie d'exemples de simulations CFD Simerics MP / MP+ et PumpLinx, filtrable par logiciel, industrie et physique"
+description: "Galerie d'exemples de simulations CFD Simerics-MP / MP+ et PumpLinx, filtrable par logiciel, industrie et physique"
 ShowToc: false
 layout: single
 ---

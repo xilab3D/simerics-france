@@ -9,7 +9,7 @@ cascade:
   TocOpen: false
 ---
 
-Ressources techniques et documents de référence autour de Simerics MP / MP+ et PumpLinx.
+Ressources techniques et documents de référence autour de Simerics-MP / MP+ et PumpLinx.
 
 ## Dossiers techniques
 

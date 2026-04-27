@@ -1,6 +1,6 @@
 ---
 title: "Applications industrielles"
-description: "Simerics MP / MP+ par secteur : automobile, marine, aéronautique, hydraulique, turbomachines, énergie"
+description: "Simerics-MP / MP+ par secteur : automobile, marine, aéronautique, hydraulique, turbomachines, énergie"
 ShowToc: true
 TocOpen: false
 layout: single

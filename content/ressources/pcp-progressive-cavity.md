@@ -5,7 +5,7 @@ description: "Simerics ajoute un template dédié aux pompes à cavité progress
 tags: ["produit", "pumplinx", "pompes"]
 ---
 
-Simerics a récemment enrichi **PumpLinx®** d'un template dédié aux **pompes à cavité progressive (Progressive Cavity Pump — PCP)**, parfois appelées pompes Moineau.
+Simerics a récemment enrichi **PumpLinx<sup>®</sup>** d'un template dédié aux **pompes à cavité progressive (Progressive Cavity Pump — PCP)**, parfois appelées pompes Moineau.
 
 ## Pourquoi un template PCP ?
 
@@ -29,4 +29,4 @@ Le template Simerics permet de :
 
 ## Pour aller plus loin
 
-→ [Page PumpLinx®](/produits/pumplinx/) · [Demander une démo PCP](/contact)
+→ [Page PumpLinx<sup>®</sup>](/produits/pumplinx/) · [Demander une démo PCP](/contact)

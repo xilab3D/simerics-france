@@ -5,7 +5,7 @@ ShowToc: true
 TocOpen: false
 ---
 
-**Simerics-MP+®** est l'extension métier de Simerics-MP®. Elle ajoute des **modules verticaux** pré-paramétrés qui réduisent drastiquement le temps de mise en œuvre : la plupart des cas industriels se configurent en **quelques minutes** grâce aux templates dédiés.
+**Simerics-MP+<sup>®</sup>** est l'extension métier de Simerics-MP<sup>®</sup>. Elle ajoute des **modules verticaux** pré-paramétrés qui réduisent drastiquement le temps de mise en œuvre : la plupart des cas industriels se configurent en **quelques minutes** grâce aux templates dédiés.
 
 <div class="cards-grid">
 

@@ -12,9 +12,9 @@ Simerics France propose un accompagnement complet autour de la suite logicielle 
 <div class="card accent">
 <h3>Licences</h3>
 <ul>
-<li>Simerics-MP®</li>
-<li>Simerics-MP+® (modules métiers)</li>
-<li>PumpLinx®</li>
+<li>Simerics-MP<sup>®</sup></li>
+<li>Simerics-MP+<sup>®</sup> (modules métiers)</li>
+<li>PumpLinx<sup>®</sup></li>
 <li>Modules complémentaires</li>
 <li>Licences perpétuelles ou annuelles</li>
 <li>Floating / nodelock</li>

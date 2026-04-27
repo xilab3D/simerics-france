@@ -10,8 +10,8 @@ Une sélection de liens utiles pour découvrir les capacités de Simerics et son
 ## Documentation officielle
 
 - [Simerics Inc. — site éditeur (USA)](https://www.simerics.com)
-- [PumpLinx® — page produit](https://www.simerics.com/pumplinx/)
-- [Simerics-MP® — page produit](https://www.simerics.com/simerics-mp/)
+- [PumpLinx<sup>®</sup> — page produit](https://www.simerics.com/pumplinx/)
+- [Simerics-MP<sup>®</sup> — page produit](https://www.simerics.com/simerics-mp/)
 - [XiLAB3D+ — représentant France](https://xilab.tech)
 
 ## Écosystème et intégrations

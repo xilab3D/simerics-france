@@ -1,11 +1,11 @@
 ---
 title: "Lancement de Simerics France"
 date: 2026-04-21
-description: "Simerics France — nouveau représentant officiel des solutions Simerics MP / MP+ et PumpLinx en France."
+description: "Simerics France — nouveau représentant officiel des solutions Simerics-MP / MP+ et PumpLinx en France."
 tags: ["actualité", "lancement"]
 ---
 
-Nous sommes heureux d'annoncer le lancement officiel de **Simerics France**, représentant des solutions de simulation CFD 3D **Simerics MP®, Simerics MP+®** et **PumpLinx®** sur le territoire français.
+Nous sommes heureux d'annoncer le lancement officiel de **Simerics France**, représentant des solutions de simulation CFD 3D **Simerics-MP<sup>®</sup>, Simerics-MP+<sup>®</sup>** et **PumpLinx<sup>®</sup>** sur le territoire français.
 
 ## Notre mission
 

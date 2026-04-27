@@ -524,6 +524,18 @@ h1, h2, h3 {
   font-size: 13px;
 }
 
+/* Marque déposée ® : forcer en exposant partout */
+sup {
+  font-size: 0.65em;
+  vertical-align: super;
+  line-height: 0;
+}
+
+/* "Simerics-MP/MP+" et variantes : ne pas couper sur deux lignes */
+.nowrap, .post-content .nowrap, .card .nowrap {
+  white-space: nowrap;
+}
+
 /* --- Galerie de simulations --- */
 .gallery-filters {
   margin: 24px 0 32px;

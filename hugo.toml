@@ -27,13 +27,13 @@ enableInlineShortcodes = true
     favicon32x32 = "/images/logo-simerics-emblem.jpg"
   comments = false
   math = false
-  description = "Simerics France — Représentant officiel de Simerics MP / MP+ : simulation CFD 3D rapide, fiable et précise pour pompes, valves, turbomachines, automobile, marine et aéronautique."
+  description = "Simerics France — Représentant officiel de Simerics-MP / MP+ : simulation CFD 3D rapide, fiable et précise pour pompes, valves, turbomachines, automobile, marine et aéronautique."
   author = "Simerics France"
 
   [params.profileMode]
     enabled = true
     title = "La CFD par et pour les ingénieurs"
-    subtitle = "Simulation CFD 3D — **RAPIDE. FIABLE. PRÉCIS.**\nPompes, valves, turbomachines, automobile, marine, aéronautique."
+    subtitle = "**Performance CFD — Rapide, Robuste, Précis**\nPompes, valves, turbomachines, automobile, marine, aéronautique."
     imageUrl = "images/logo-simerics.png"
     imageWidth = 440
     imageHeight = 80

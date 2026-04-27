@@ -1,12 +1,12 @@
 ---
 title: "Produits Simerics"
-description: "Simerics MP, Simerics MP+ et PumpLinx — Suite logicielle CFD 3D"
+description: "Simerics-MP, Simerics-MP+ et PumpLinx — Suite logicielle CFD 3D"
 ShowToc: true
 TocOpen: false
 layout: single
 ---
 
-La gamme Simerics est une suite logicielle de **dynamique des fluides numérique (CFD) 3D** basée sur la méthode des **volumes finis**, structurée autour d'un noyau commun (Simerics-MP®) et de modules métiers (Simerics-MP+®). L'ensemble est reconnu pour être typiquement **5 à 10 × plus rapide** que les codes CFD généralistes sur les applications de pompes et de machines tournantes.
+La gamme Simerics est une suite logicielle de **dynamique des fluides numérique (CFD) 3D** basée sur la méthode des **volumes finis**, structurée autour d'un noyau commun (Simerics-MP<sup>®</sup>) et de modules métiers (Simerics-MP+<sup>®</sup>). L'ensemble est reconnu pour être typiquement **5 à 10 × plus rapide** que les codes CFD généralistes sur les applications de pompes et de machines tournantes.
 
 <div class="partner-banner">
 <strong>Simerics France</strong>, activité portée par son distributeur <a href="https://xilab.tech" target="_blank" rel="noopener">XiLAB3D+</a>, est le représentant des solutions Simerics Inc. (USA) sur le territoire français : licences, support technique de premier niveau, formation et prestations d'expertise.
@@ -17,19 +17,19 @@ La gamme Simerics est une suite logicielle de **dynamique des fluides numérique
 <div class="cards-grid">
 
 <div class="card accent">
-<h3>Simerics-MP®</h3>
+<h3>Simerics-MP<sup>®</sup></h3>
 <p>Le noyau CFD 3D : écoulements mono et multiphasiques, turbulence, cavitation, transferts thermiques, particules lagrangiennes, FSI, maillages dynamiques (rotation/glissement).</p>
 <a class="card-link" href="/produits/simerics-mp/">En savoir plus →</a>
 </div>
 
 <div class="card accent">
-<h3>Simerics-MP+®</h3>
+<h3>Simerics-MP+<sup>®</sup></h3>
 <p>Modules métiers verticaux : Vehicle, Marine, PD, Turbo, Valves, Systems. Workflows pré-paramétrés pour des temps de mise en œuvre de quelques minutes.</p>
 <a class="card-link" href="/produits/simerics-mp-plus/">En savoir plus →</a>
 </div>
 
 <div class="card accent">
-<h3>PumpLinx®</h3>
+<h3>PumpLinx<sup>®</sup></h3>
 <p>Code historique Simerics dédié aux pompes, moteurs, turbines, compresseurs et valves avec géométries en mouvement (rotation/glissement).</p>
 <a class="card-link" href="/produits/pumplinx/">En savoir plus →</a>
 </div>

@@ -5,7 +5,7 @@ ShowToc: true
 TocOpen: false
 ---
 
-**Simerics-MP®** (pour *Multi-Purpose*) est le noyau de simulation CFD 3D développé par Simerics Inc. depuis plus de 20 ans. Il rassemble l'ensemble des capacités physiques de base sur lesquelles s'appuient les modules métiers Simerics-MP+®.
+**Simerics-MP<sup>®</sup>** (pour *Multi-Purpose*) est le noyau de simulation CFD 3D développé par Simerics Inc. depuis plus de 20 ans. Il rassemble l'ensemble des capacités physiques de base sur lesquelles s'appuient les modules métiers Simerics-MP+<sup>®</sup>.
 
 ## Capacités physiques
 
@@ -36,4 +36,4 @@ De l'import CAO au rapport final, tout se fait dans une interface unique :
 
 ---
 
-→ [Découvrir Simerics-MP+®](/produits/simerics-mp-plus/) · [Demander une démo](/contact)
+→ [Découvrir Simerics-MP+<sup>®</sup>](/produits/simerics-mp-plus/) · [Demander une démo](/contact)

@@ -3,7 +3,7 @@ title: "Turbomachines"
 description: "Simerics-MP+® Turbo — Pompes centrifuges, compresseurs, turbines, ventilateurs"
 ---
 
-Le module **Simerics-MP+® Turbo** couvre l'ensemble des machines tournantes à fluide.
+Le module **Simerics-MP+<sup>®</sup> Turbo** couvre l'ensemble des machines tournantes à fluide.
 
 <div class="hero-visual">
   <img src="/images/applications/turbomachines.gif" alt="Simerics-MP+ Turbo — simulation de turbomachine" loading="lazy">

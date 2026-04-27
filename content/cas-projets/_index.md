@@ -1,6 +1,6 @@
 ---
 title: "Études de cas"
-description: "Retours d'expérience industriels avec Simerics MP / MP+ et PumpLinx"
+description: "Retours d'expérience industriels avec Simerics-MP / MP+ et PumpLinx"
 ---
 
 Études de cas industrielles utilisant Simerics — secteur automobile, marine, hydraulique, turbomachines, énergie.

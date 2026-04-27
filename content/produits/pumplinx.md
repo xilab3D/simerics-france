@@ -5,7 +5,7 @@ ShowToc: true
 TocOpen: false
 ---
 
-**PumpLinx®** est le code CFD historique de Simerics, dédié à la simulation des **machines à fluide avec composants en mouvement** : pompes, moteurs, turbines, compresseurs, valves. Il est aujourd'hui intégré dans la même base technologique que Simerics-MP®, avec des templates et workflows métiers pré-configurés.
+**PumpLinx<sup>®</sup>** est le code CFD historique de Simerics, dédié à la simulation des **machines à fluide avec composants en mouvement** : pompes, moteurs, turbines, compresseurs, valves. Il est aujourd'hui intégré dans la même base technologique que Simerics-MP<sup>®</sup>, avec des templates et workflows métiers pré-configurés.
 
 ## Pourquoi PumpLinx ?
 

@@ -3,7 +3,7 @@ title: "Hydraulique & Lubrification"
 description: "PumpLinx® et Simerics-MP+® PD/Valves — Pompes, valves, circuits hydrauliques"
 ---
 
-C'est le **domaine historique** de Simerics. **PumpLinx®** et le module **Simerics-MP+® PD / Valves** sont la référence du marché pour la simulation 3D des machines volumétriques et des composants hydrauliques.
+C'est le **domaine historique** de Simerics. **PumpLinx<sup>®</sup>** et le module **Simerics-MP+<sup>®</sup> PD / Valves** sont la référence du marché pour la simulation 3D des machines volumétriques et des composants hydrauliques.
 
 <div class="hero-visual">
   <img src="/images/applications/hydraulique.gif" alt="Simulation hydraulique — PumpLinx / Simerics-MP+ PD" loading="lazy">
@@ -40,4 +40,4 @@ C'est le **domaine historique** de Simerics. **PumpLinx®** et le module **Simer
 
 ---
 
-→ [PumpLinx®](/produits/pumplinx/) · [Module PD](/produits/simerics-mp-plus/) · [Demander une démo](/contact)
+→ [PumpLinx<sup>®</sup>](/produits/pumplinx/) · [Module PD](/produits/simerics-mp-plus/) · [Demander une démo](/contact)
