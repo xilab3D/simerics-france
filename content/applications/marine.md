@@ -9,6 +9,8 @@ Le module **Simerics-MP+<sup>®</sup> for Marine** couvre l'ensemble des problé
   <img src="/images/applications/marine.gif" alt="Simerics-MP+ for Marine — simulation hydrodynamique" loading="lazy">
 </div>
 
+<a href="/pdf/plaquette-simerics-marine.pdf" class="btn-blue-red" target="_blank">📄 Télécharger la plaquette Marine (PDF)</a>
+
 ## Cas d'usage
 
 - **Résistance de carène** — friction, vagues, déplacement
