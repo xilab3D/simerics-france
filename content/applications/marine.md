@@ -1,12 +1,12 @@
 ---
 title: "Marine & Naval"
-description: "Simerics-MP+® for Marine — Hydrodynamique, propulsion, manœuvrabilité"
+description: "Simerics Marine — Hydrodynamique, propulsion, manœuvrabilité"
 ---
 
-Le module **Simerics-MP+<sup>®</sup> for Marine** couvre l'ensemble des problématiques d'hydrodynamique navale, de la résistance de carène à la manœuvrabilité.
+Le module **Simerics Marine** couvre l'ensemble des problématiques d'hydrodynamique navale, de la résistance de carène à la manœuvrabilité.
 
 <div class="hero-visual">
-  <img src="/images/applications/marine.gif" alt="Simerics-MP+ for Marine — simulation hydrodynamique" loading="lazy">
+  <img src="/images/applications/marine.gif" alt="Simerics Marine — simulation hydrodynamique" loading="lazy">
 </div>
 
 <a href="/pdf/plaquette-simerics-marine.pdf" class="btn-blue-red" target="_blank">📄 Télécharger la plaquette Marine (PDF)</a>
