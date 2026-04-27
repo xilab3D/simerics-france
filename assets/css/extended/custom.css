@@ -524,11 +524,13 @@ h1, h2, h3 {
   font-size: 13px;
 }
 
-/* Marque déposée ® : forcer en exposant partout */
+/* Marque déposée ® : forcer en exposant collé au caractère précédent */
 sup {
-  font-size: 0.65em;
+  font-size: 0.55em;
   vertical-align: super;
   line-height: 0;
+  margin-left: -0.05em;
+  letter-spacing: 0;
 }
 
 /* "Simerics-MP/MP+" et variantes : ne pas couper sur deux lignes */
