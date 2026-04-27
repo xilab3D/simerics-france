@@ -36,7 +36,7 @@ Simerics France propose un accompagnement complet autour de la suite logicielle 
 <div class="card accent">
 <h3>Formation</h3>
 <ul>
-<li>Prise en main Simerics-MP/MP+</li>
+<li>Prise en main <span class="nowrap">Simerics-MP/MP+</span></li>
 <li>Modules métiers (PD, Turbo, Vehicle...)</li>
 <li>Sur site ou à distance</li>
 <li>Formations sur cas client</li>
@@ -67,7 +67,7 @@ Toutes nos formations sont dispensées par des **ingénieurs CFD praticiens** ay
 
 | Formation | Durée | Format |
 |-----------|-------|--------|
-| **Prise en main Simerics-MP/MP+** | 1 jour | Sur site ou à distance |
+| **Prise en main <span class="nowrap">Simerics-MP/MP+</span>** | 1 jour | Sur site ou à distance |
 | **Module PD : pompes volumétriques** | 2 jours | Sur site ou à distance |
 | **Module Turbo : pompes centrifuges** | 2 jours | Avec intégration CFturbo |
 | **Module Valves & systèmes hydrauliques** | 2 jours | Sur site ou à distance |
