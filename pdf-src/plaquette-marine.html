@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Plaquette Simerics-MP+ Marine — Simerics France</title>
+<style>
+  @page {
+    size: A4;
+    margin: 14mm 14mm 14mm 14mm;
+  }
+  body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 11pt;
+    line-height: 1.4;
+    color: #222;
+    margin: 0;
+  }
+  h1, h2, h3 {
+    font-family: Georgia, serif;
+    color: #1e2f80;
+    margin: 0;
+    letter-spacing: -0.01em;
+  }
+  p { margin: 0 0 6pt; }
+  ul { margin: 0; padding: 0; list-style: none; }
+
+  /* Bandeau en-tête commun */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #1e2f80;
+    padding-bottom: 8pt;
+    margin-bottom: 14pt;
+  }
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 10pt;
+  }
+  .header-left img {
+    height: 50pt;
+  }
+  .header-left .france {
+    font-family: Georgia, serif;
+    font-size: 28pt;
+    color: #e5201d;
+    border-left: 2px solid #1e2f80;
+    padding-left: 12pt;
+    line-height: 1;
+  }
+  .header-right {
+    text-align: right;
+    line-height: 1.1;
+  }
+  .header-right .product {
+    font-family: Georgia, serif;
+    font-size: 32pt;
+    font-weight: bold;
+    color: #1e2f80;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+  .header-right .module {
+    font-family: Georgia, serif;
+    font-size: 20pt;
+    color: #555;
+    line-height: 1;
+  }
+
+  /* Titre de page */
+  .page-title {
+    font-family: Georgia, serif;
+    font-size: 22pt;
+    color: #1e2f80;
+    text-align: center;
+    margin: 8pt 0 12pt;
+  }
+
+  /* Image principale */
+  .hero-img {
+    text-align: center;
+    margin: 10pt 0 14pt;
+  }
+  .hero-img img {
+    max-width: 90%;
+    max-height: 360pt;
+  }
+
+  /* Liste à puces ✓ */
+  .bullets {
+    margin-top: 8pt;
+    padding-left: 20pt;
+  }
+  .bullets li {
+    font-size: 14pt;
+    color: #1e2f80;
+    margin: 6pt 0;
+    padding-left: 22pt;
+    position: relative;
+  }
+  .bullets li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #1e2f80;
+    font-weight: bold;
+    font-size: 14pt;
+  }
+
+  /* Page 2 - colonnes */
+  .two-col {
+    display: flex;
+    gap: 14pt;
+    margin-top: 6pt;
+  }
+  .col-left { width: 46%; }
+  .col-right { width: 54%; }
+
+  .col-left h2, .col-left h3 {
+    font-family: Georgia, serif;
+    color: #1e2f80;
+    font-size: 18pt;
+    margin: 6pt 0 4pt;
+  }
+  .col-left .predicts-text {
+    font-size: 11pt;
+    color: #1e2f80;
+    margin-top: 2pt;
+  }
+
+  /* Grille images page 2 */
+  .img-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8pt;
+    margin-top: 8pt;
+  }
+  .img-grid figure {
+    margin: 0;
+    text-align: center;
+  }
+  .img-grid img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+  }
+  .img-grid figcaption {
+    font-family: Georgia, serif;
+    font-size: 10pt;
+    color: #333;
+    margin-top: 3pt;
+  }
+
+  /* Pied de page */
+  .footer-block {
+    margin-top: 16pt;
+    padding-top: 8pt;
+    border-top: 2px solid #1e2f80;
+    font-size: 9pt;
+    color: #555;
+  }
+  .footer-block .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12pt;
+  }
+  .footer-block .col { flex: 1; }
+  .footer-block strong { color: #1e2f80; font-size: 10pt; }
+  .footer-block .distrib {
+    text-align: center;
+    font-style: italic;
+    margin-top: 6pt;
+    color: #1e2f80;
+    font-size: 10pt;
+  }
+  .footer-block img.xilab {
+    height: 30pt;
+    vertical-align: middle;
+    margin-left: 6pt;
+  }
+
+  .page-break { page-break-before: always; }
+</style>
+</head>
+<body>
+
+<!-- ====================== PAGE 1 ====================== -->
+<div class="header">
+  <div class="header-left">
+    <img src="/Users/nico/Documents/GitHub/SimericsFrance/static/images/logo-simerics.png" alt="Simerics">
+    <span class="france">France</span>
+  </div>
+  <div class="header-right">
+    <div class="product">SIMERICS-MP+<sup style="font-size: 0.5em; vertical-align: super;">®</sup></div>
+    <div class="module">Marine</div>
+  </div>
+</div>
+
+<h1 class="page-title">Simerics-MP+<sup style="font-size: 0.55em; vertical-align: super; margin-left: -0.05em;">®</sup> Marine — Bassin de carène virtuel</h1>
+
+<div class="hero-img">
+  <img src="/Users/nico/Documents/GitHub/SimericsFrance/pdf-src/images/marine/page1-screen.png" alt="Aperçu Simerics Marine">
+</div>
+
+<ul class="bullets">
+  <li>Simulation stationnaire et instationnaire</li>
+  <li>Six degrés de liberté (6 DDL)</li>
+  <li>Simulation rapide</li>
+  <li>Eaux profondes et eaux peu profondes</li>
+  <li>Appendices mobiles</li>
+</ul>
+
+<!-- ====================== PAGE 2 ====================== -->
+<div class="page-break"></div>
+
+<div class="header">
+  <div class="header-left">
+    <img src="/Users/nico/Documents/GitHub/SimericsFrance/static/images/logo-simerics.png" alt="Simerics">
+    <span class="france">France</span>
+  </div>
+  <div class="header-right">
+    <div class="product">SIMERICS-MP+<sup style="font-size: 0.5em; vertical-align: super;">®</sup></div>
+    <div class="module">Marine</div>
+  </div>
+</div>
+
+<div class="two-col">
+  <div class="col-left">
+    <h2>Avantages Simerics</h2>
+    <ul class="bullets">
+      <li>Réduction de la traînée</li>
+      <li>Amélioration du rendement</li>
+      <li>Réduction du marsouinage</li>
+      <li>Amélioration de la sécurité</li>
+      <li>Amélioration du confort</li>
+      <li>Réduction des coûts</li>
+    </ul>
+
+    <h3>Phénomènes prédits</h3>
+    <p class="predicts-text">
+      Résistance de friction et de vagues, puissance effective, auto-propulsion (accélération ou vitesse), carène planante, marsouinage (<em>porpoising</em>), manœuvrabilité de navire, tenue à la mer (<em>seakeeping</em>).
+    </p>
+  </div>
+
+  <div class="col-right">
+    <div class="img-grid">
+      <figure>
+        <img src="/Users/nico/Documents/GitHub/SimericsFrance/pdf-src/images/marine/planing-hull.jpg" alt="Carène planante">
+        <figcaption>Carène planante</figcaption>
+      </figure>
+      <figure>
+        <img src="/Users/nico/Documents/GitHub/SimericsFrance/pdf-src/images/marine/dtmb5415.jpg" alt="Carène DTMB 5415">
+        <figcaption>Carène à déplacement DTMB&nbsp;5415</figcaption>
+      </figure>
+      <figure>
+        <img src="/Users/nico/Documents/GitHub/SimericsFrance/pdf-src/images/marine/kcs.jpg" alt="Carène KCS">
+        <figcaption>Carène à déplacement KCS</figcaption>
+      </figure>
+      <figure>
+        <img src="/Users/nico/Documents/GitHub/SimericsFrance/pdf-src/images/marine/porpoising.jpg" alt="Marsouinage">
+        <figcaption>Marsouinage <em>(porpoising)</em></figcaption>
+      </figure>
+    </div>
+  </div>
+</div>
+
+<div class="footer-block">
+  <div class="row">
+    <div class="col">
+      <strong>Éditeur</strong><br>
+      Simerics, Inc. — Bellevue, WA, USA<br>
+      <a href="https://www.simerics.com">www.simerics.com</a>
+    </div>
+    <div class="col" style="text-align:center;">
+      <strong>Simerics France</strong><br>
+      <a href="https://simerics.fr">simerics.fr</a><br>
+      contact@xilab3dplus.com
+    </div>
+    <div class="col" style="text-align:right;">
+      <strong>Distribué par</strong><br>
+      XiLAB3Dplus SARL<br>
+      1 rue des Cordeliers, 04200 Sisteron<br>
+      Tél. 06 73 28 43 14
+    </div>
+  </div>
+  <div class="distrib">
+    Simerics France — distribué par <strong>XiLAB3Dplus</strong>
+    <img class="xilab" src="/Users/nico/Documents/GitHub/SimericsFrance/static/images/logo-xilab.png" alt="XiLAB3D+">
+  </div>
+</div>
+
+</body>
+</html>
